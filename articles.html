@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>流量卡资讯｜卡卡速联流量卡 · 每日更新</title>
+  <meta name="description" content="卡卡速联流量卡资讯：流量卡推荐、避坑指南、办卡答疑、用卡技巧、代理攻略，每日更新，帮你选对流量卡、用省每一分钱。">
+  <meta name="keywords" content="流量卡资讯,流量卡推荐,流量卡避坑,流量卡怎么选,流量卡知识">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/article.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="logo"><img src="images/avatar.webp" alt="卡卡速联流量卡"></div>
+        <div class="bt">
+          <b>卡卡速联流量卡</b>
+          <span>三大运营商授权 · 官方正品保障</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="btn-buy" href="https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=fdef2c8d91da4c9fb967e505d8255dd7" target="_blank" rel="noopener">免费领卡</a>
+        <a class="btn-agent" href="https://hk.yunhaoka.cn/#/pages/public/register?code=7755188" target="_blank" rel="noopener">代理加盟</a>
+        <a class="btn-news" href="articles.html">流量卡资讯</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="container">
+      <div class="news-head">
+        <div class="kicker">NEWS · 每日更新</div>
+        <h1>流量卡资讯</h1>
+        <p>套餐评测 · 避坑指南 · 办卡答疑 · 用卡技巧 · 代理攻略，跟着我们每天学一点</p>
+      </div>
+      <div class="news-list" id="newsList"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="brand-row"><img src="images/avatar.webp" alt="卡卡速联流量卡"><b>卡卡速联流量卡</b></div>
+      <div class="disclaimer"><b>合规声明：</b>本页所示套餐与资费信息来源于卡卡速联流量卡店铺，实际资费、流量构成、优惠期以运营商与店铺办理页为准。号卡均需本人实名认证后方可激活使用。资讯内容仅供参考，不构成办理承诺。</div>
+      <div class="copy">© 2026 卡卡速联流量卡 · 由 GitHub Pages 托管</div>
+    </div>
+  </footer>
+
+  <script src="js/articles.js"></script>
+  <script>
+    (function () {
+      const list = window.ARTICLES || [];
+      const box = document.getElementById("newsList");
+      if (!box) return;
+      if (!list.length) { box.innerHTML = '<p style="color:#9aa8bd">暂无文章，敬请期待。</p>'; return; }
+      box.innerHTML = list.map(a => `
+        <div class="news-item">
+          <div class="nt"><span class="tag">${a.tag}</span><span class="date">${a.date}</span></div>
+          <h2><a href="${a.url}">${a.title}</a></h2>
+          <p class="sum">${a.summary}</p>
+          <a class="more" href="${a.url}">阅读全文 →</a>
+        </div>`).join("");
+    })();
+  </script>
+</body>
+</html>

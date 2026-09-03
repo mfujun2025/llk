@@ -1,0 +1,63 @@
+/* ===== 文章详情页 & 资讯列表页样式 ===== */
+
+/* ---- 资讯列表页 ---- */
+.news-head { text-align: center; padding: 46px 0 8px; }
+.news-head .kicker { color: var(--blue); font-weight: 700; font-size: 13px; letter-spacing: 2px; }
+.news-head h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; margin: 8px 0 10px; }
+.news-head p { color: var(--ink-2); font-size: 15px; }
+
+.news-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; padding: 30px 0 50px; }
+.news-item {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 20px;
+  box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px; transition: .25s;
+}
+.news-item:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(11,55,130,.16); }
+.news-item .nt { display: flex; align-items: center; gap: 10px; }
+.news-item .nt .tag { font-size: 12px; background: #eef4ff; color: var(--blue); padding: 2px 10px; border-radius: 999px; font-weight: 600; }
+.news-item .nt .date { font-size: 12.5px; color: #9aa8bd; }
+.news-item h2 { font-size: 17.5px; font-weight: 700; line-height: 1.4; }
+.news-item h2 a:hover { color: var(--blue); }
+.news-item .sum { font-size: 13.5px; color: var(--ink-2); flex: 1; }
+.news-item .more { font-size: 13.5px; color: var(--blue); font-weight: 600; }
+.news-item .more:hover { color: var(--orange); }
+
+/* ---- 文章详情页 ---- */
+.article-page { padding: 40px 0 56px; }
+.article-page .container { max-width: 780px; }
+.a-head { margin-bottom: 22px; }
+.a-tag { display: inline-block; font-size: 12px; background: #eef4ff; color: var(--blue); padding: 3px 12px; border-radius: 999px; font-weight: 600; margin-bottom: 12px; }
+.a-head h1 { font-size: clamp(24px, 3.6vw, 32px); font-weight: 800; line-height: 1.35; margin-bottom: 12px; }
+.a-meta { display: flex; gap: 16px; color: #9aa8bd; font-size: 13px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.a-body { line-height: 1.95; color: #2b3a50; font-size: 15.5px; }
+.a-body h2 { font-size: 19px; font-weight: 800; margin: 30px 0 12px; padding-left: 12px; border-left: 4px solid var(--blue); }
+.a-body p { margin: 0 0 14px; text-align: justify; }
+.a-body b { color: var(--blue); }
+
+.cta-box {
+  margin: 34px 0 10px; background: linear-gradient(135deg, #eef4ff, #e9f8fb);
+  border: 1px solid #d5e6ff; border-radius: var(--radius); padding: 22px; text-align: center;
+}
+.cta-box p { font-size: 15px; margin-bottom: 14px; }
+.cta-box .cta-btns { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.cta-box .btn-buy, .cta-box .btn-agent {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700;
+  padding: 12px 26px; border-radius: 999px; transition: .2s;
+}
+.cta-box .btn-buy { background: var(--orange); color: #fff; box-shadow: 0 8px 18px rgba(255,122,26,.35); }
+.cta-box .btn-buy:hover { background: var(--orange-deep); }
+.cta-box .btn-agent { background: var(--blue); color: #fff; box-shadow: 0 8px 18px rgba(11,107,255,.30); }
+.cta-box .btn-agent:hover { background: var(--blue-deep); }
+
+.related { margin-top: 28px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+.related h3 { font-size: 15px; font-weight: 700; margin-bottom: 10px; }
+.related ul { list-style: none; }
+.related li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px dashed var(--line); font-size: 14px; }
+.related li:last-child { border-bottom: 0; }
+.related li a { color: var(--ink); }
+.related li a:hover { color: var(--blue); }
+.related li span { color: #9aa8bd; font-size: 12.5px; white-space: nowrap; }
+
+@media (max-width: 640px) {
+  .article-page { padding: 28px 0 40px; }
+  .a-body { font-size: 15px; }
+}
