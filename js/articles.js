@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-taocan-daoqi-xufei",
+    "title": "流量卡套餐到期怎么办？优惠期结束后怎么续费最划算？",
+    "date": "2026-09-04",
+    "tag": "用卡技巧",
+    "summary": "流量卡都有优惠期，到期后月租会恢复原价。本文讲清到期前要做的3件事、续费和换卡哪个更划算，以及怎么避免被悄悄扣高价。",
+    "url": "articles/liuliangka-taocan-daoqi-xufei.html"
+  },
+  {
     "id": "liuliangka-jihuo-liucheng",
     "title": "流量卡激活流程全攻略：收到卡后怎么操作？",
     "date": "2026-09-03",
