@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shouyue-zenme-shoufei",
+    "title": "流量卡首月怎么收费？按天折算还是扣全月月租？",
+    "date": "2026-09-06",
+    "tag": "办卡答疑",
+    "summary": "流量卡首月到底扣多少钱？是按天折算还是全月月租？本文讲清首月计费规则、流量怎么给、怎么激活最划算，以及避免首月被多扣的几个提醒。",
+    "url": "articles/liuliangka-shouyue-zenme-shoufei.html"
+  },
+  {
     "id": "liuliangka-kairedian-hui-bei-xiansu-ma",
     "title": "流量卡可以开热点吗？会不会被限速或封卡？",
     "date": "2026-09-05",
