@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-dingxiang-liuliang-shi-shenme",
+    "title": "流量卡定向流量是什么？哪些APP能用？怎么看通用和定向？",
+    "date": "2026-09-07",
+    "tag": "办卡答疑",
+    "summary": "很多流量卡宣传200G流量，实际通用流量可能只有几十G。本文讲清定向流量是什么、哪些APP能用、怎么查自己的流量构成，避免被“大流量”数字误导。",
+    "url": "articles/liuliangka-dingxiang-liuliang-shi-shenme.html"
+  },
+  {
     "id": "liuliangka-shouyue-zenme-shoufei",
     "title": "流量卡首月怎么收费？按天折算还是扣全月月租？",
     "date": "2026-09-06",
