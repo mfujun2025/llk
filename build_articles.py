@@ -430,3 +430,29 @@ js = ("// 流量卡资讯列表数据（按日期倒序）。每日更新：把�
 with open(os.path.join(BASE, "js", "articles.js"), "w", encoding="utf-8") as f:
     f.write(js)
 print("已生成: js/articles.js  （共 %d 篇）" % len(articles_meta))
+
+# 自动生成 sitemap.xml（含首页、资讯列表、全部文章）
+import datetime
+DOMAIN = "https://大流量卡.中国"
+today = datetime.date.today().isoformat()
+sitemap_urls = [("/", "1.0", today), ("/articles.html", "0.9", today)]
+for a in articles_meta:
+    sitemap_urls.append(("/" + a["url"], "0.8", a["date"]))
+sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+for loc, pri, lastmod in sitemap_urls:
+    sm.append("  <url>")
+    sm.append(f"    <loc>{DOMAIN}{loc}</loc>")
+    sm.append(f"    <lastmod>{lastmod}</lastmod>")
+    sm.append("    <changefreq>weekly</changefreq>")
+    sm.append(f"    <priority>{pri}</priority>")
+    sm.append("  </url>")
+sm.append("</urlset>")
+with open(os.path.join(BASE, "sitemap.xml"), "w", encoding="utf-8") as f:
+    f.write("\n".join(sm) + "\n")
+print("已生成: sitemap.xml  （共 %d 个URL）" % len(sitemap_urls))
+
+# 自动生成 robots.txt
+with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8") as f:
+    f.write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
+print("已生成: robots.txt")
