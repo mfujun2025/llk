@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-keyi-yidi-shiyong-ma",
+    "title": "流量卡可以异地使用吗？跨省会限速或停机吗？",
+    "date": "2026-09-09",
+    "tag": "办卡答疑",
+    "summary": "流量卡异地能用吗？跨省会不会限速、停机或额外扣费？本文讲清流量卡的归属地规则、全国通用套餐、异地使用注意事项，帮你放心用卡。",
+    "url": "articles/liuliangka-keyi-yidi-shiyong-ma.html"
+  },
+  {
     "id": "liuliangka-wangsu-man-zenme-ban",
     "title": "流量卡网速慢怎么办？信号不好怎么排查和解决？",
     "date": "2026-09-08",
