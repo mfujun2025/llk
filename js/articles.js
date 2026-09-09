@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-keyi-yong-5g-ma",
+    "title": "流量卡可以用5G吗？5G流量卡和4G有什么区别？",
+    "date": "2026-09-10",
+    "tag": "办卡答疑",
+    "summary": "流量卡能用5G吗？5G流量卡和4G有什么区别？网速差多少？本文讲清5G流量卡的开通条件、网速对比、覆盖情况，以及怎么选才不花冤枉钱。",
+    "url": "articles/liuliangka-keyi-yong-5g-ma.html"
+  },
+  {
     "id": "liuliangka-keyi-yidi-shiyong-ma",
     "title": "流量卡可以异地使用吗？跨省会限速或停机吗？",
     "date": "2026-09-09",
