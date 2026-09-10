@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-zai-naili-ban-kao-pu",
+    "title": "流量卡在哪里办理最靠谱？网上申请安全吗？",
+    "date": "2026-09-11",
+    "tag": "办卡答疑",
+    "summary": "网上办流量卡到底靠不靠谱？怎么分辨正规渠道和骗子？本文讲清正规办理渠道、网上办卡的流程和风险、收到卡怎么验真，帮你安全办到靠谱流量卡。",
+    "url": "articles/liuliangka-zai-naili-ban-kao-pu.html"
+  },
+  {
     "id": "liuliangka-keyi-yong-5g-ma",
     "title": "流量卡可以用5G吗？5G流量卡和4G有什么区别？",
     "date": "2026-09-10",
