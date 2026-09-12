@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-jihuo-hou-duojiu-neng-yong",
+    "title": "流量卡激活后多久能用？流量多久到账？",
+    "date": "2026-09-13",
+    "tag": "办卡答疑",
+    "summary": "流量卡激活后马上就能用吗？流量、话费多久到账？激活失败或到账慢怎么办？本文讲清激活后的到账时间、常见问题和处理方法，帮你顺利开卡。",
+    "url": "articles/liuliangka-jihuo-hou-duojiu-neng-yong.html"
+  },
+  {
     "id": "liuliangka-chuguo-neng-yong-ma",
     "title": "流量卡出国能用吗？国际漫游怎么开通？",
     "date": "2026-09-12",
