@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-fuka-shi-shenme",
+    "title": "流量卡副卡是什么？怎么办理？一张卡多人共用怎么操作？",
+    "date": "2026-09-14",
+    "tag": "办卡答疑",
+    "summary": "流量卡能开副卡吗？副卡和主卡什么关系？流量话费怎么算？本文讲清流量卡副卡的办理条件、使用规则和注意事项，帮你判断要不要开副卡。",
+    "url": "articles/liuliangka-fuka-shi-shenme.html"
+  },
+  {
     "id": "liuliangka-jihuo-hou-duojiu-neng-yong",
     "title": "流量卡激活后多久能用？流量多久到账？",
     "date": "2026-09-13",
