@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-zenme-cha-liuliang-huafei",
+    "title": "流量卡怎么查流量和话费？4种查询方法一文讲清",
+    "date": "2026-09-15",
+    "tag": "用卡技巧",
+    "summary": "流量卡怎么查剩余流量和话费？官方APP、短信、客服热线、微信怎么查？本文讲清4种查询方法，教你随时掌握流量使用情况和账户余额。",
+    "url": "articles/liuliangka-zenme-cha-liuliang-huafei.html"
+  },
+  {
     "id": "liuliangka-fuka-shi-shenme",
     "title": "流量卡副卡是什么？怎么办理？一张卡多人共用怎么操作？",
     "date": "2026-09-14",
