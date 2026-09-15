@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-bei-xiansu-le-zenme-ban",
+    "title": "流量卡被限速了怎么办？解除限速有哪些方法？",
+    "date": "2026-09-16",
+    "tag": "用卡技巧",
+    "summary": "流量卡用着用着网速突然变慢，多半是达量限速了。本文讲清限速的几种类型、怎么判断是不是被限速、解除限速的几种方法，以及怎么选不限速的套餐。",
+    "url": "articles/liuliangka-bei-xiansu-le-zenme-ban.html"
+  },
+  {
     "id": "liuliangka-zenme-cha-liuliang-huafei",
     "title": "流量卡怎么查流量和话费？4种查询方法一文讲清",
     "date": "2026-09-15",
