@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-bei-tingka-le-zenme-ban",
+    "title": "流量卡被停卡了怎么办？二次实名认证怎么做？",
+    "date": "2026-09-17",
+    "tag": "用卡技巧",
+    "summary": "流量卡用着用着突然停机了？多半是触发了二次实名认证。本文讲清停卡的常见原因、二次实名认证怎么做、以及怎么避免被误停。",
+    "url": "articles/liuliangka-bei-tingka-le-zenme-ban.html"
+  },
+  {
     "id": "liuliangka-bei-xiansu-le-zenme-ban",
     "title": "流量卡被限速了怎么办？解除限速有哪些方法？",
     "date": "2026-09-16",
