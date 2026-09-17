@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-keyi-cha-pingban-ma",
+    "title": "流量卡可以插在平板、随身WiFi上吗？多设备怎么用？",
+    "date": "2026-09-18",
+    "tag": "用卡技巧",
+    "summary": "流量卡能不能插平板、随身WiFi、路由器？插卡和开热点哪个好？本文讲清流量卡多设备使用的3种方式、各自的优缺点，帮你选对方案不踩坑。",
+    "url": "articles/liuliangka-keyi-cha-pingban-ma.html"
+  },
+  {
     "id": "liuliangka-bei-tingka-le-zenme-ban",
     "title": "流量卡被停卡了怎么办？二次实名认证怎么做？",
     "date": "2026-09-17",
