@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-you-heyue-qi-ma",
+    "title": "流量卡有合约期吗？合约期内能注销吗？",
+    "date": "2026-09-19",
+    "tag": "办卡答疑",
+    "summary": "办流量卡前最该问清的事之一：有没有合约期？合约期内能不能注销、会不会有违约金？本文讲清合约期的类型、注销规则和避坑方法。",
+    "url": "articles/liuliangka-you-heyue-qi-ma.html"
+  },
+  {
     "id": "liuliangka-keyi-cha-pingban-ma",
     "title": "流量卡可以插在平板、随身WiFi上吗？多设备怎么用？",
     "date": "2026-09-18",
