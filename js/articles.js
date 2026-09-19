@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-changqi-buyong-hui-zenyang",
+    "title": "流量卡长期不用会怎么样？会被销户回收吗？",
+    "date": "2026-09-20",
+    "tag": "用卡技巧",
+    "summary": "办了好几张流量卡，有的用不上了怎么办？长期不用会不会被销户、欠费、影响信用？本文讲清流量卡闲置的几种结果、处理办法和保号技巧。",
+    "url": "articles/liuliangka-changqi-buyong-hui-zenyang.html"
+  },
+  {
     "id": "liuliangka-you-heyue-qi-ma",
     "title": "流量卡有合约期吗？合约期内能注销吗？",
     "date": "2026-09-19",
