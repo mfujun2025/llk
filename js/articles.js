@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-keyi-huan-taocan-ma",
+    "title": "流量卡可以换套餐吗？怎么升级或降级？",
+    "date": "2026-09-22",
+    "tag": "办卡答疑",
+    "summary": "流量用不够想升套餐、用不完想降套餐，流量卡能换吗？本文讲清流量卡换套餐的规则、升级降级的操作方法和限制，帮你选对套餐不花冤枉钱。",
+    "url": "articles/liuliangka-keyi-huan-taocan-ma.html"
+  },
+  {
     "id": "liuliangka-fahuo-yao-duojiu",
     "title": "流量卡发货要多久？迟迟不发货怎么回事？",
     "date": "2026-09-21",
