@@ -74,7 +74,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     renderHot();
-    renderTable("national");
+    renderTable("all");
     bindTabs();
   });
 })();
