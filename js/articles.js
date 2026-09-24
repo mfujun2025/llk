@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-diule-zenme-buban",
+    "title": "流量卡丢了怎么补办？挂失、换卡的流程和注意事项",
+    "date": "2026-09-25",
+    "tag": "用卡技巧",
+    "summary": "流量卡不小心丢了或损坏了怎么办？还能保住原来的号码吗？本文讲清流量卡挂失、补办、换卡的具体流程和注意事项，让卡片丢失不再手足无措。",
+    "url": "articles/liuliangka-diule-zenme-buban.html"
+  },
+  {
     "id": "liuliangka-shengyu-liuliang-jiezhuan",
     "title": "流量卡剩余流量能结转吗？上月没用完的流量下月还能用吗？",
     "date": "2026-09-24",
