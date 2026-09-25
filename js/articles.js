@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-guohu-zhuanrang",
+    "title": "流量卡能过户吗？怎么把卡转让给家人朋友？",
+    "date": "2026-09-26",
+    "tag": "办卡答疑",
+    "summary": "办了流量卡不想用了，能转给家人朋友吗？过户要什么条件、走什么流程？本文讲清流量卡过户的规则、操作步骤和注意事项，帮你安全合规地处理闲置的卡。",
+    "url": "articles/liuliangka-guohu-zhuanrang.html"
+  },
+  {
     "id": "liuliangka-diule-zenme-buban",
     "title": "流量卡丢了怎么补办？挂失、换卡的流程和注意事项",
     "date": "2026-09-25",
