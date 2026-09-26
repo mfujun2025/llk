@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-zenme-chongzhi-huafei",
+    "title": "流量卡怎么充值话费？官方充值渠道和方法汇总",
+    "date": "2026-09-27",
+    "tag": "用卡技巧",
+    "summary": "流量卡怎么充话费最方便？首充要充多少？哪些渠道是官方正规的？本文汇总流量卡充值的全部官方渠道、首充规则和注意事项，帮你安全快捷地给流量卡充值。",
+    "url": "articles/liuliangka-zenme-chongzhi-huafei.html"
+  },
+  {
     "id": "liuliangka-guohu-zhuanrang",
     "title": "流量卡能过户吗？怎么把卡转让给家人朋友？",
     "date": "2026-09-26",
