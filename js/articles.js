@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shiyong-renqun-tuijian",
+    "title": "流量卡适合什么人办？学生党、租房族、双卡用户怎么选？",
+    "date": "2026-09-28",
+    "tag": "办卡答疑",
+    "summary": "流量卡到底适合谁办？学生、租房族、双卡用户分别适合什么档位？本文从人群角度帮你判断自己适不适合办流量卡，以及怎么选到合适的套餐。",
+    "url": "articles/liuliangka-shiyong-renqun-tuijian.html"
+  },
+  {
     "id": "liuliangka-zenme-chongzhi-huafei",
     "title": "流量卡怎么充值话费？官方充值渠道和方法汇总",
     "date": "2026-09-27",
