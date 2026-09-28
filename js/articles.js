@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-jihuo-shibai-zenmeban",
+    "title": "流量卡激活失败怎么回事？常见原因和解决方法",
+    "date": "2026-09-29",
+    "tag": "用卡技巧",
+    "summary": "刚收到的流量卡激活时提示失败怎么办？是卡的问题还是操作问题？本文汇总流量卡激活失败的常见原因和排查方法，帮你顺利激活开卡。",
+    "url": "articles/liuliangka-jihuo-shibai-zenmeban.html"
+  },
+  {
     "id": "liuliangka-shiyong-renqun-tuijian",
     "title": "流量卡适合什么人办？学生党、租房族、双卡用户怎么选？",
     "date": "2026-09-28",
