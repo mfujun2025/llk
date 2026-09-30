@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-jihuo-hou-meixinhao",
+    "title": "流量卡激活后没信号、流量不到账怎么办？",
+    "date": "2026-10-01",
+    "tag": "用卡技巧",
+    "summary": "流量卡明明激活成功了，手机却显示没信号，或者流量迟迟不到账，怎么回事？本文讲清激活后没信号、流量不到账的常见原因和排查方法，帮你快速恢复正常使用。",
+    "url": "articles/liuliangka-jihuo-hou-meixinhao.html"
+  },
+  {
     "id": "liuliangka-jihuo-shibai-zenmeban",
     "title": "流量卡激活失败怎么回事？常见原因和解决方法",
     "date": "2026-09-29",
