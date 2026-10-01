@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shou-yanzhengma",
+    "title": "流量卡能收短信验证码吗？能绑定微信、支付宝吗？",
+    "date": "2026-10-02",
+    "tag": "办卡答疑",
+    "summary": "流量卡能收到验证码吗？能不能绑定微信、支付宝和银行卡？本文讲清正规流量卡的号码功能边界，以及用它绑定重要账号前要知道的注意事项。",
+    "url": "articles/liuliangka-shou-yanzhengma.html"
+  },
+  {
     "id": "liuliangka-jihuo-hou-meixinhao",
     "title": "流量卡激活后没信号、流量不到账怎么办？",
     "date": "2026-10-01",
