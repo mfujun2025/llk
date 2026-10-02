@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-kuandai-na-ge-huansuan",
+    "title": "流量卡和宽带哪个划算？租房没宽带用什么上网最省钱？",
+    "date": "2026-10-03",
+    "tag": "办卡答疑",
+    "summary": "流量卡和宽带哪个划算？从月租、合约、稳定性对比两种上网方式，租房党、学生党一年能省多少？附流量卡代替宽带的注意事项。",
+    "url": "articles/liuliangka-kuandai-na-ge-huansuan.html"
+  },
+  {
     "id": "liuliangka-shou-yanzhengma",
     "title": "流量卡能收短信验证码吗？能绑定微信、支付宝吗？",
     "date": "2026-10-02",
