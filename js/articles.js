@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-kaifapiao",
+    "title": "流量卡能开发票吗？话费电子发票怎么开报销？",
+    "date": "2026-10-04",
+    "tag": "办卡答疑",
+    "summary": "流量卡能开发票吗？正规号卡与普通手机号一样可以开电子发票，本文讲清开票渠道、哪些情况开不了、怎么开票报销。",
+    "url": "articles/liuliangka-kaifapiao.html"
+  },
+  {
     "id": "liuliangka-kuandai-na-ge-huansuan",
     "title": "流量卡和宽带哪个划算？租房没宽带用什么上网最省钱？",
     "date": "2026-10-03",
