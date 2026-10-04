@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-tingjibaohao",
+    "title": "流量卡停机保号怎么办理？费用和保留期限说明",
+    "date": "2026-10-05",
+    "tag": "用卡技巧",
+    "summary": "流量卡暂时不用又不想注销？停机保号每月约5元就能保留号码。本文讲清停机保号的办理渠道、费用规则和复机方法。",
+    "url": "articles/liuliangka-tingjibaohao.html"
+  },
+  {
     "id": "liuliangka-kaifapiao",
     "title": "流量卡能开发票吗？话费电子发票怎么开报销？",
     "date": "2026-10-04",
