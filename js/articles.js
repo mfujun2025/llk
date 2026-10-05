@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-wangsuman",
+    "title": "流量卡网速慢怎么办？6个实测提速方法",
+    "date": "2026-10-06",
+    "tag": "用卡技巧",
+    "summary": "流量卡网速慢先分清是信号、限速还是手机设置问题，本文给出APN设置、重启、限速恢复等6个实测提速方法。",
+    "url": "articles/liuliangka-wangsuman.html"
+  },
+  {
     "id": "liuliangka-tingjibaohao",
     "title": "流量卡停机保号怎么办理？费用和保留期限说明",
     "date": "2026-10-05",
