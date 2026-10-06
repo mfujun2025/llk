@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-xiehaozhuanwang",
+    "title": "流量卡能携号转网吗？怎么办理？",
+    "date": "2026-10-07",
+    "tag": "办卡答疑",
+    "summary": "流量卡能不能携号转网？本文讲清办理条件、三步流程和常见限制，转网前先查资格再动手。",
+    "url": "articles/liuliangka-xiehaozhuanwang.html"
+  },
+  {
     "id": "liuliangka-wangsuman",
     "title": "流量卡网速慢怎么办？6个实测提速方法",
     "date": "2026-10-06",
