@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-qianfei",
+    "title": "流量卡欠费不还会怎样？会上征信吗？",
+    "date": "2026-10-08",
+    "tag": "办卡答疑",
+    "summary": "流量卡欠费会停机、扣滞纳金，长期不还可能进运营商黑名单、影响征信。本文讲清欠费后果和正确的销户方式。",
+    "url": "articles/liuliangka-qianfei.html"
+  },
+  {
     "id": "liuliangka-xiehaozhuanwang",
     "title": "流量卡能携号转网吗？怎么办理？",
     "date": "2026-10-07",
