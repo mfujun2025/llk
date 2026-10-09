@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-zhuxiao",
+    "title": "流量卡不用了怎么注销？线上线下都讲清",
+    "date": "2026-10-10",
+    "tag": "用卡技巧",
+    "summary": "流量卡不用了怎么注销？运营商APP线上自助销户或营业厅线下办理都可行，本文讲清注销前的准备和两种办理方式。",
+    "url": "articles/liuliangka-zhuxiao.html"
+  },
+  {
     "id": "liuliangka-zenmexuan",
     "title": "流量卡怎么选不踩坑？买前先看这8点",
     "date": "2026-10-09",
