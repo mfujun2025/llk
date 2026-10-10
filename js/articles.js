@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-guishudi",
+    "title": "流量卡归属地重要吗？外地卡能不能办？",
+    "date": "2026-10-11",
+    "tag": "办卡答疑",
+    "summary": "流量卡归属地重要吗？流量通话全国通用、异地也能销户，但线下业务和新规需留意，本文一次讲清。",
+    "url": "articles/liuliangka-guishudi.html"
+  },
+  {
     "id": "liuliangka-zhuxiao",
     "title": "流量卡不用了怎么注销？线上线下都讲清",
     "date": "2026-10-10",
