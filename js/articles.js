@@ -1,6 +1,14 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shouchong",
+    "title": "流量卡首充怎么充？激活后充值注意这几点",
+    "date": "2026-10-12",
+    "tag": "办卡答疑",
+    "summary": "流量卡激活后要首充才能用，本文讲清首充金额、官方充值入口和返还规则，避免充错渠道优惠失效。",
+    "url": "articles/liuliangka-shouchong.html"
+  },
+  {
     "id": "liuliangka-guishudi",
     "title": "流量卡归属地重要吗？外地卡能不能办？",
     "date": "2026-10-11",
