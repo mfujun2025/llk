@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shuangka",
+    "title": "流量卡双卡双待怎么设置？主副卡这样搭配更省",
+    "date": "2026-10-12",
+    "tag": "用卡技巧",
+    "summary": "手机双卡双待，流量卡插主卡槽、默认数据选流量卡、自动切换关掉，配合老号降保号套餐，上网快、话费省。",
+    "url": "articles/liuliangka-shuangka.html"
+  },
+  {
+    "id": "liuliangka-laoren",
+    "title": "给爸妈办流量卡怎么选？老人用卡注意这几点",
+    "date": "2026-10-12",
+    "tag": "办卡答疑",
+    "summary": "给爸妈办流量卡，核心是简单、长期、防骚扰：月租固定、规则透明、有通话和拦截功能，办理时本人实名激活更稳妥。",
+    "url": "articles/liuliangka-laoren.html"
+  },
+  {
+    "id": "liuliangka-bugouyong",
+    "title": "流量卡流量不够用怎么办？加油包和换套餐哪个划算",
+    "date": "2026-10-12",
+    "tag": "用卡技巧",
+    "summary": "流量卡流量不够用，先查明细再动手：临时救急买日包月包加油包，长期不够就换大流量流量卡套餐，本文讲清怎么选最省。",
+    "url": "articles/liuliangka-bugouyong.html"
+  },
+  {
     "id": "liuliangka-shouchong",
     "title": "流量卡首充怎么充？激活后充值注意这几点",
     "date": "2026-10-12",
