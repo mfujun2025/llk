@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-150g-dianxin",
+    "title": "150G不限app电信流量卡靠谱吗？真实规则一文讲清",
+    "date": "2026-10-13",
+    "tag": "办卡答疑",
+    "summary": "150G不限app电信流量卡靠不靠谱，看三点：流量构成、限速规则、渠道是否正规。本文把真实规则一次讲清，帮你判断值不值得办。",
+    "url": "articles/liuliangka-150g-dianxin.html"
+  },
+  {
+    "id": "liuliangka-19yuan-dianxin",
+    "title": "19元电信纯流量卡是真的吗？低价卡买前看清这几点",
+    "date": "2026-10-13",
+    "tag": "办卡答疑",
+    "summary": "19元电信纯流量卡低价背后往往有附加条件：定向流量占比高、话费返赠拉低月租。买前看清通用流量、优惠期和渠道是否正规。",
+    "url": "articles/liuliangka-19yuan-dianxin.html"
+  },
+  {
+    "id": "liuliangka-tianyi-buxianapp",
+    "title": "电信不限APP流量卡怎么看？通用流量比定向更实在",
+    "date": "2026-10-13",
+    "tag": "办卡答疑",
+    "summary": "所谓电信不限APP流量卡，指的是通用流量多。本文讲清通用和定向的区别，教你办卡时怎么看套餐结构，避免被总流量数字糊弄。",
+    "url": "articles/liuliangka-tianyi-buxianapp.html"
+  },
+  {
     "id": "liuliangka-shuangka",
     "title": "流量卡双卡双待怎么设置？主副卡这样搭配更省",
     "date": "2026-10-12",
