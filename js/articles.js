@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shenxingka",
+    "title": "电信5G神星卡19元150G是真的吗？低价套餐怎么判断",
+    "date": "2026-10-14",
+    "tag": "办卡答疑",
+    "summary": "电信5G神星卡19元150G是不是真的，看通用流量构成、优惠期和渠道。本文把判断方法讲清，帮你分清哪些能办、哪些要避开。",
+    "url": "articles/liuliangka-shenxingka.html"
+  },
+  {
+    "id": "liuliangka-yidong-tuijian",
+    "title": "移动大流量卡推荐：2026年选卡重点看这几点",
+    "date": "2026-10-14",
+    "tag": "办卡答疑",
+    "summary": "移动大流量卡怎么选？重点看通用流量占比、长期资费和合约期。本文把四个硬指标讲清，按标准选基本不踩坑。",
+    "url": "articles/liuliangka-yidong-tuijian.html"
+  },
+  {
+    "id": "liuliangka-liantong-buxianapp",
+    "title": "联通不限APP流量卡怎么选？通用流量和定向流量对比",
+    "date": "2026-10-14",
+    "tag": "办卡答疑",
+    "summary": "联通不限APP流量卡怎么选？核心看通用流量占比。本文把通用和定向的区别讲透，教你对比套餐时看哪几个数，选卡不踩坑。",
+    "url": "articles/liuliangka-liantong-buxianapp.html"
+  },
+  {
     "id": "liuliangka-150g-dianxin",
     "title": "150G不限app电信流量卡靠谱吗？真实规则一文讲清",
     "date": "2026-10-13",
