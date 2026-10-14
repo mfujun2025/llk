@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-29yuan-tuijian",
+    "title": "29元大流量卡推荐：这个价位怎么选最划算？",
+    "date": "2026-10-15",
+    "tag": "办卡答疑",
+    "summary": "29元大流量卡怎么选最划算？通用流量占比、优惠期、合约期、渠道四个要点讲清，29元档也能买到实在的卡。",
+    "url": "articles/liuliangka-29yuan-tuijian.html"
+  },
+  {
+    "id": "liuliangka-yuezu-di-liuliang-duo",
+    "title": "月租低流量多的流量卡怎么挑？低价不等于划算",
+    "date": "2026-10-15",
+    "tag": "办卡答疑",
+    "summary": "月租低流量多的流量卡怎么挑？低价背后是预存返赠加定向凑数。本文讲清套路，帮你挑到真正月租低、流量又够用的卡。",
+    "url": "articles/liuliangka-yuezu-di-liuliang-duo.html"
+  },
+  {
+    "id": "liuliangka-chaozhi-paihangbang",
+    "title": "超值流量卡排行榜怎么看？2026年高性价比卡怎么排",
+    "date": "2026-10-15",
+    "tag": "选卡技巧",
+    "summary": "超值流量卡排行榜怎么排、数据哪来的？本文讲清榜单评选逻辑和三个参考维度，教你用榜单选卡不踩坑。",
+    "url": "articles/liuliangka-chaozhi-paihangbang.html"
+  },
+  {
     "id": "liuliangka-shenxingka",
     "title": "电信5G神星卡19元150G是真的吗？低价套餐怎么判断",
     "date": "2026-10-14",
