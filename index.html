@@ -96,7 +96,19 @@
   ]
 }
   </script>
-  </head>
+  <style>
+  .pin-banner{background:linear-gradient(120deg,#fff7ec,#ffe9d6);border-bottom:3px solid #ff6b35;}
+  .pin-banner .container{display:flex;align-items:center;justify-content:space-between;gap:1.2em;padding-top:1.1em;padding-bottom:1.1em;flex-wrap:wrap;}
+  .pin-banner .pin-tag{display:inline-block;background:#ff6b35;color:#fff;font-size:.8em;padding:3px 10px;border-radius:20px;margin-bottom:.4em;font-weight:600;}
+  .pin-banner h2{margin:.2em 0 .25em;font-size:1.28em;line-height:1.4;}
+  .pin-banner h2 a{color:#1c2b4a;text-decoration:none;}
+  .pin-banner h2 a:hover{color:#ff6b35;}
+  .pin-banner p{margin:0;color:#5a6a85;font-size:.95em;}
+  .pin-banner .pin-go{flex:none;background:#ff6b35;color:#fff;padding:.7em 1.3em;border-radius:8px;text-decoration:none;font-weight:600;}
+  .pin-banner .pin-go:hover{background:#e55a26;}
+  @media (max-width:640px){.pin-banner .container{display:block;}.pin-banner .pin-go{display:inline-block;margin-top:.7em;}}
+</style>
+</head>
 <body>
 
   <!-- 顶部导航 -->
@@ -137,6 +149,19 @@
           <div class="qt">扫码注册代理<br><b>0门槛加盟</b></div>
         </div>
       </div>
+    </div>
+  </section>
+
+
+  <!-- 置顶指南 -->
+  <section class="pin-banner">
+    <div class="container">
+      <div class="pin-left">
+        <span class="pin-tag">📌 置顶指南</span>
+        <h2><a href="articles/liuliangka-zhinan.html">流量卡是什么？怎么选不踩坑？2026年流量卡一站式选购指南</a></h2>
+        <p>定义 · 优势 · 适合人群 · 六步选购法 · 避坑清单 · 常见问题FAQ，办卡前看这一篇，不花冤枉钱。</p>
+      </div>
+      <a class="pin-go" href="articles/liuliangka-zhinan.html">阅读全文 →</a>
     </div>
   </section>
 

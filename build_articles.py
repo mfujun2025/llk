@@ -1500,7 +1500,8 @@ print("已生成: js/articles.js  （共 %d 篇）" % len(articles_meta))
 import datetime
 DOMAIN = "https://大流量卡.中国"
 today = datetime.date.today().isoformat()
-sitemap_urls = [("/", "1.0", today), ("/articles.html", "0.9", today)]
+sitemap_urls = [("/", "1.0", today), ("/articles.html", "0.9", today),
+               ("/articles/liuliangka-zhinan.html", "0.9", today)]
 for a in articles_meta:
     sitemap_urls.append(("/" + a["url"], "0.8", a["date"]))
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
