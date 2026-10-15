@@ -70,6 +70,14 @@ flowcard-site/
 ### 方式一：让我代写（推荐）
 把新文章的**标题 + 大致内容（或要点）**发给我，我用 `build_articles.py` 帮你生成文章页并自动更新 `js/articles.js`，再把文件打包给你上传。
 
+> `build_articles.py` 每次运行还会自动完成（内链与收录优化）：
+> 1. 重新生成 `articles.html`——全部文章服务端直出，爬虫不执行 JS 也能发现所有文章；
+> 2. 刷新 `index.html` 首页「最新资讯」为最新 6 篇；
+> 3. 为每篇文章补齐 canonical、面包屑结构化数据、5 条相关阅读，以及「置顶指南 / 资讯列表」入口；
+> 4. 重建 `sitemap.xml` 与 `robots.txt`。
+>
+> 注意：用方式二手动新增的文章，也必须同步补进 `build_articles.py` 的 `ARTICLES` 数组再跑生成器，否则重新生成时会丢失；不跑生成器则列表页 / 首页资讯 / sitemap 不会自动更新。
+
 ### 方式二：自己手动加（两步）
 **第 1 步**：在 `articles/` 文件夹里新建一个 HTML（复制一篇现有文章，改标题、正文、日期、`<title>`、`<meta name="description">`，文件名用英文小写+连字符，如 `liuliangka-xxx.html`）。
 
@@ -86,6 +94,8 @@ flowcard-site/
 ```
 
 **第 3 步**：把改动的文件（新文章 html + `js/articles.js`）上传覆盖到 GitHub 仓库即可，列表页和首页预览会自动按日期排到最前，老文章不受影响。不用每次重新上传整个网站。
+
+> 手动添加后，建议再跑一次 `python build_articles.py` 并上传生成结果，让 `articles.html` 列表页、首页资讯和 `sitemap.xml` 同步更新（跑之前记得把新文章补进 `ARTICLES` 数组，否则会被覆盖丢失）。
 
 ## 两个关键链接在哪里改
 
