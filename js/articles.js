@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-chucha-bibei",
+    "title": "出差必备流量卡推荐：全国通用和异地销户最关键",
+    "date": "2026-10-16",
+    "tag": "选卡技巧",
+    "summary": "出差必备流量卡怎么选？全国通用、能异地销户、信号覆盖好三样占全就是好卡。出差党选卡逻辑与避坑要点一次讲清。",
+    "url": "articles/liuliangka-chucha-bibei.html"
+  },
+  {
+    "id": "liuliangka-daxuesheng",
+    "title": "适合大学生的大流量卡怎么选？学生党避坑清单",
+    "date": "2026-10-16",
+    "tag": "选卡技巧",
+    "summary": "适合大学生的大流量卡怎么选？全国通用、月租可控、渠道正规三条硬标准，加上四步挑法，学生党避坑清单一次讲清。",
+    "url": "articles/liuliangka-daxuesheng.html"
+  },
+  {
+    "id": "liuliangka-150g-tongyong",
+    "title": "150G通用流量卡多少钱？价格差十倍的原因讲清楚",
+    "date": "2026-10-16",
+    "tag": "办卡答疑",
+    "summary": "150G通用流量卡多少钱？官方资费两三百元、渠道优惠卡一二十元，差价为何这么大？本文讲清核价方法，帮你选到实在的流量卡。",
+    "url": "articles/liuliangka-150g-tongyong.html"
+  },
+  {
     "id": "liuliangka-29yuan-tuijian",
     "title": "29元大流量卡推荐：这个价位怎么选最划算？",
     "date": "2026-10-15",
