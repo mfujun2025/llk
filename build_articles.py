@@ -11,6 +11,9 @@ os.makedirs(ART_DIR, exist_ok=True)
 
 STORE = "https://hk.yunhaoka.cn/#/pages/micro_store/index?agent_id=fdef2c8d91da4c9fb967e505d8255dd7"
 AGENT = "https://hk.yunhaoka.cn/#/pages/public/register?code=7755188"
+DOMAIN = "https://大流量卡.中国"
+HUB_ID = "liuliangka-zhinan"
+HUB_TITLE = "流量卡是什么？怎么选不踩坑？2026年流量卡一站式选购指南"
 
 ARTICLES = [
 {
@@ -1558,6 +1561,13 @@ FOOTER = '''
   </div>
 </footer>'''
 
+def kw_overlap(a, b):
+    """两篇文章的关键词重合数量（用于跨栏目相关文章的相关性排序）"""
+    ka = set(k.strip() for k in a["keywords"].split(",") if k.strip())
+    kb = set(k.strip() for k in b["keywords"].split(",") if k.strip())
+    return len(ka & kb)
+
+
 def render_article(a, related):
     paras = []
     for h2, plist in a["content"]:
@@ -1570,6 +1580,12 @@ def render_article(a, related):
     rel = ""
     if related_html:
         rel = f'<div class="related"><h3>相关阅读</h3><ul>{related_html}</ul></div>'
+    guide = (
+        '<div class="related"><h3>选卡指南 · 更多资讯</h3><ul>'
+        f'<li><a href="{HUB_ID}.html">{HUB_TITLE}</a><span>置顶指南</span></li>'
+        '<li><a href="../articles.html">流量卡资讯列表：套餐评测 · 避坑指南 · 办卡答疑 · 用卡技巧 · 代理攻略</a><span>每日更新</span></li>'
+        '</ul></div>'
+    )
     body_len = len("".join(x for _, ps in a["content"] for x in ps))
     return f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -1580,10 +1596,14 @@ def render_article(a, related):
 <meta name="description" content="{a["summary"]}">
 <meta name="keywords" content="{a["keywords"]}">
 <link rel="icon" href="../images/favicon.png">
+<link rel="canonical" href="{DOMAIN}/articles/{a["id"]}.html">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/article.css">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Article","headline":"{a["title"]}","datePublished":"{a["date"]}","author":{{"@type":"Organization","name":"卡卡速联流量卡"}}}}
+</script>
+<script type="application/ld+json">
+{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{{"@type":"ListItem","position":1,"name":"首页","item":"{DOMAIN}/"}},{{"@type":"ListItem","position":2,"name":"流量卡资讯","item":"{DOMAIN}/articles.html"}},{{"@type":"ListItem","position":3,"name":"{a["title"]}","item":"{DOMAIN}/articles/{a["id"]}.html"}}]}}
 </script>
 </head>
 <body>
@@ -1605,6 +1625,7 @@ def render_article(a, related):
         </div>
       </div>
       {rel}
+      {guide}
     </div>
   </div>
 </article>
@@ -1614,11 +1635,13 @@ def render_article(a, related):
 
 articles_meta = []
 for i, a in enumerate(ARTICLES):
-    related = [x for x in ARTICLES if x is not a and x["tag"] == a["tag"]]
-    pool = [x for x in ARTICLES if x is not a and x not in related]
-    related = (related[:2] + pool[:1])[:3]
+    # 相关阅读：同栏目最新 3 篇 + 跨栏目按关键词重合度取 2 篇（共 5 条）
+    same_tag = [x for x in ARTICLES if x is not a and x["tag"] == a["tag"]][:3]
+    pool = [x for x in ARTICLES if x is not a and x["tag"] != a["tag"]]
+    pool.sort(key=lambda x: (kw_overlap(a, x), x["date"]), reverse=True)
+    related = same_tag + pool[:2]
     fn = os.path.join(ART_DIR, a["id"] + ".html")
-    with open(fn, "w", encoding="utf-8") as f:
+    with open(fn, "w", encoding="utf-8", newline="\n") as f:
         f.write(render_article(a, related))
     articles_meta.append({
         "id": a["id"], "title": a["title"], "date": a["date"], "tag": a["tag"],
@@ -1629,13 +1652,158 @@ for i, a in enumerate(ARTICLES):
 articles_meta.sort(key=lambda x: x["date"], reverse=True)
 js = ("// 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。\n"
       "window.ARTICLES = " + json.dumps(articles_meta, ensure_ascii=False, indent=2) + ";\n")
-with open(os.path.join(BASE, "js", "articles.js"), "w", encoding="utf-8") as f:
+with open(os.path.join(BASE, "js", "articles.js"), "w", encoding="utf-8", newline="\n") as f:
     f.write(js)
 print("已生成: js/articles.js  （共 %d 篇）" % len(articles_meta))
 
+
+# ---------- 内链与收录优化：列表页 SSR 化 + 首页资讯自动刷新 ----------
+
+def news_item_html(a):
+    """列表页/首页资讯条目的标准 markup（与原 JS 渲染结果保持一致）"""
+    return (
+        '<div class="news-item">\n'
+        f'          <div class="nt"><span class="tag">{a["tag"]}</span><span class="date">{a["date"]}</span></div>\n'
+        f'          <h2><a href="{a["url"]}">{a["title"]}</a></h2>\n'
+        f'          <p class="sum">{a["summary"]}</p>\n'
+        f'          <a class="more" href="{a["url"]}">阅读全文 →</a>\n'
+        '        </div>'
+    )
+
+
+# 生成 articles.html：全部文章服务端直出进 #newsList（爬虫不执行 JS 也能发现全部文章），
+# 页内 JS 保留作渐进增强（数据一致时重复渲染无副作用，articles.js 手动更新后列表自动同步）
+ARTICLES_PAGE = '''<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>流量卡资讯｜卡卡速联流量卡 · 每日更新</title>
+  <meta name="description" content="卡卡速联流量卡资讯：流量卡推荐、避坑指南、办卡答疑、用卡技巧、代理攻略，每日更新，帮你选对流量卡、用省每一分钱。">
+  <meta name="keywords" content="流量卡资讯,流量卡推荐,流量卡避坑,流量卡怎么选,流量卡知识">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="canonical" href="{DOMAIN}/articles.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/article.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CollectionPage","name":"流量卡资讯","url":"{DOMAIN}/articles.html"}
+  </script>
+<style>
+  .news-pin{background:#fff7ec;border:1px solid #ffd9b8;border-left:4px solid #ff6b35;border-radius:10px;padding:1.1em 1.3em;margin-bottom:1.4em;}
+  .news-pin .np-tag{display:inline-block;background:#ff6b35;color:#fff;font-size:.78em;padding:2px 10px;border-radius:20px;font-weight:600;}
+  .news-pin h2{margin:.5em 0 .3em;font-size:1.22em;}
+  .news-pin h2 a{color:#1c2b4a;text-decoration:none;}
+  .news-pin h2 a:hover{color:#ff6b35;}
+  .news-pin .np-sum{margin:0 0 .6em;color:#5a6a85;}
+  .news-pin .np-go{color:#ff6b35;font-weight:600;text-decoration:none;}
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="logo"><img src="images/avatar.webp" alt="卡卡速联流量卡"></div>
+        <div class="bt">
+          <b>卡卡速联流量卡</b>
+          <span>三大运营商授权 · 官方正品保障</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="btn-buy" href="{STORE}" target="_blank" rel="noopener">免费领卡</a>
+        <a class="btn-agent" href="{AGENT}" target="_blank" rel="noopener">代理加盟</a>
+        <a class="btn-news" href="articles.html">流量卡资讯</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="container">
+      <div class="news-head">
+        <div class="kicker">NEWS · 每日更新</div>
+        <h1>流量卡资讯</h1>
+        <p>套餐评测 · 避坑指南 · 办卡答疑 · 用卡技巧 · 代理攻略，跟着我们每天学一点</p>
+      </div>
+      <div class="news-pin">
+        <div class="np-tag">📌 置顶指南</div>
+        <h2><a href="articles/liuliangka-zhinan.html">流量卡是什么？怎么选不踩坑？2026年流量卡一站式选购指南</a></h2>
+        <p class="np-sum">定义 · 优势 · 适合人群 · 六步选购法 · 避坑清单 · 常见问题FAQ，办卡前看这一篇，不花冤枉钱。</p>
+        <a class="np-go" href="articles/liuliangka-zhinan.html">阅读全文 →</a>
+      </div>
+      <div class="news-list" id="newsList">
+        {NEWS_ITEMS}
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="brand-row"><img src="images/avatar.webp" alt="卡卡速联流量卡"><b>卡卡速联流量卡</b></div>
+      <div class="disclaimer"><b>合规声明：</b>本页所示套餐与资费信息来源于卡卡速联流量卡店铺，实际资费、流量构成、优惠期以运营商与店铺办理页为准。号卡均需本人实名认证后方可激活使用。资讯内容仅供参考，不构成办理承诺。</div>
+      <div class="copy">© 2026 卡卡速联流量卡 · 由 GitHub Pages 托管</div>
+    </div>
+  </footer>
+
+  <script src="js/articles.js"></script>
+  <script>
+    (function () {
+      const list = window.ARTICLES || [];
+      const box = document.getElementById("newsList");
+      if (!box) return;
+      if (!list.length) { box.innerHTML = '<p style="color:#9aa8bd">暂无文章，敬请期待。</p>'; return; }
+      box.innerHTML = list.map(a => `
+        <div class="news-item">
+          <div class="nt"><span class="tag">${a.tag}</span><span class="date">${a.date}</span></div>
+          <h2><a href="${a.url}">${a.title}</a></h2>
+          <p class="sum">${a.summary}</p>
+          <a class="more" href="${a.url}">阅读全文 →</a>
+        </div>`).join("");
+    })();
+  </script>
+</body>
+</html>'''
+
+news_items = "\n        ".join(news_item_html(a) for a in articles_meta)
+articles_page = (ARTICLES_PAGE
+                 .replace("{NEWS_ITEMS}", news_items)
+                 .replace("{STORE}", STORE)
+                 .replace("{AGENT}", AGENT)
+                 .replace("{DOMAIN}", DOMAIN))
+with open(os.path.join(BASE, "articles.html"), "w", encoding="utf-8", newline="\n") as f:
+    f.write(articles_page)
+print("已生成: articles.html（列表页 SSR，%d 篇文章服务端直出）" % len(articles_meta))
+
+# 刷新 index.html 首页「最新资讯」：预渲染最新 6 篇（页面 JS 有 children 守卫，不会重复渲染）
+index_path = os.path.join(BASE, "index.html")
+if os.path.exists(index_path):
+    with open(index_path, "r", encoding="utf-8") as f:
+        idx = f.read()
+    marker = 'id="homeNews">'
+    mi = idx.find(marker)
+    if mi != -1:
+        s0 = mi + len(marker)
+        depth, j = 1, s0
+        while depth > 0:
+            no = idx.find("<div", j)
+            nc = idx.find("</div>", j)
+            if no != -1 and no < nc:
+                depth += 1
+                j = no + 4
+            else:
+                depth -= 1
+                j = nc + 6
+        fresh = "\n        " + "\n        ".join(news_item_html(a) for a in articles_meta[:6]) + "\n      "
+        idx = idx[:s0] + fresh + idx[j - 6:]
+        with open(index_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write(idx)
+        print("已刷新: index.html 首页最新资讯（最新 %d 篇）" % min(6, len(articles_meta)))
+    else:
+        print("跳过: index.html 中未找到 #homeNews 容器")
+else:
+    print("跳过: 未找到 index.html")
+
 # 自动生成 sitemap.xml（含首页、资讯列表、全部文章）
 import datetime
-DOMAIN = "https://大流量卡.中国"
 today = datetime.date.today().isoformat()
 sitemap_urls = [("/", "1.0", today), ("/articles.html", "0.9", today),
                ("/articles/liuliangka-zhinan.html", "0.9", today)]
@@ -1651,11 +1819,11 @@ for loc, pri, lastmod in sitemap_urls:
     sm.append(f"    <priority>{pri}</priority>")
     sm.append("  </url>")
 sm.append("</urlset>")
-with open(os.path.join(BASE, "sitemap.xml"), "w", encoding="utf-8") as f:
+with open(os.path.join(BASE, "sitemap.xml"), "w", encoding="utf-8", newline="\n") as f:
     f.write("\n".join(sm) + "\n")
 print("已生成: sitemap.xml  （共 %d 个URL）" % len(sitemap_urls))
 
 # 自动生成 robots.txt
-with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8") as f:
+with open(os.path.join(BASE, "robots.txt"), "w", encoding="utf-8", newline="\n") as f:
     f.write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
 print("已生成: robots.txt")
