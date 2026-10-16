@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-lvyou-zenmexuan",
+    "title": "旅游流量卡怎么选？按行程天数这样配更省",
+    "date": "2026-10-17",
+    "tag": "选卡技巧",
+    "summary": "旅游流量卡怎么选？短途按天加包、一周以上配全国通用大流量卡、出境看目的地选方案。按行程天数配卡，出门不愁没网。",
+    "url": "articles/liuliangka-lvyou-zenmexuan.html"
+  },
+  {
+    "id": "liuliangka-laonianji-tuijian",
+    "title": "老年机流量卡推荐：给爸妈配卡记住这几点",
+    "date": "2026-10-17",
+    "tag": "选卡技巧",
+    "summary": "老年机流量卡推荐：语音够用、流量不浪费、防骚扰防诈骗三件事最重要。给爸妈配卡的具体标准和办理要点一次讲清。",
+    "url": "articles/liuliangka-laonianji-tuijian.html"
+  },
+  {
+    "id": "liuliangka-kuaidiyuan-zhuanyong",
+    "title": "快递员专用流量卡怎么选？通话和流量都要够",
+    "date": "2026-10-17",
+    "tag": "选卡技巧",
+    "summary": "快递员专用流量卡怎么选？通话多、导航扫码耗流量、户外信号要稳。大语音加大流量组合，选卡和避坑要点一次讲清。",
+    "url": "articles/liuliangka-kuaidiyuan-zhuanyong.html"
+  },
+  {
     "id": "liuliangka-chucha-bibei",
     "title": "出差必备流量卡推荐：全国通用和异地销户最关键",
     "date": "2026-10-16",
