@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-xueshengdang-pianyi",
+    "title": "学生党便宜流量卡怎么选？月租低不踩坑",
+    "date": "2026-10-18",
+    "tag": "选卡技巧",
+    "summary": "学生党便宜流量卡怎么选？月租低、通用流量多、无合约、能线上销户是四条硬标准。低价卡的常见套路和避坑要点一次讲清。",
+    "url": "articles/liuliangka-xueshengdang-pianyi.html"
+  },
+  {
+    "id": "liuliangka-buxiansu-tuijian",
+    "title": "不限速流量卡推荐：买前先看懂限速规则",
+    "date": "2026-10-18",
+    "tag": "选卡技巧",
+    "summary": "不限速流量卡推荐：先看懂限速规则再下单。高速流量阈值、限速后网速、合约期和售后，四条判断标准帮你不被小字套路。",
+    "url": "articles/liuliangka-buxiansu-tuijian.html"
+  },
+  {
+    "id": "liuliangka-xiansu-zenmeban",
+    "title": "流量卡限速怎么办？先分清原因再处理",
+    "date": "2026-10-18",
+    "tag": "选卡技巧",
+    "summary": "流量卡限速怎么办？先分清限速原因：达量限速、套餐规则、设备设置。不同原因对应不同处理方式，本文一次讲清。",
+    "url": "articles/liuliangka-xiansu-zenmeban.html"
+  },
+  {
     "id": "liuliangka-lvyou-zenmexuan",
     "title": "旅游流量卡怎么选？按行程天数这样配更省",
     "date": "2026-10-17",
