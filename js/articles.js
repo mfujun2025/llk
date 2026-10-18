@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-yidi-xiaohu",
+    "title": "流量卡异地销户流程：人在外地怎么把卡注销干净",
+    "date": "2026-10-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡异地销户流程一篇讲清：线上自助注销入口、办理条件、退费和解绑注意事项，人在外地也能把卡注销干净。",
+    "url": "articles/liuliangka-yidi-xiaohu.html"
+  },
+  {
+    "id": "liuliangka-yincang-feiyong",
+    "title": "流量卡隐藏费用全解析：买前把这几项问清楚",
+    "date": "2026-10-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡隐藏费用全解析：首充预存、返费套路、合约违约金、套餐外流量费逐项拆开，买前问清这几项不被坑。",
+    "url": "articles/liuliangka-yincang-feiyong.html"
+  },
+  {
+    "id": "liuliangka-heyueqi",
+    "title": "流量卡合约期多久？签约前先弄清这几点",
+    "date": "2026-10-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡合约期多久？常见合约期、违约金计算、到期续约规则一次讲清，签约前先确认这几项更安心。",
+    "url": "articles/liuliangka-heyueqi.html"
+  },
+  {
     "id": "liuliangka-xueshengdang-pianyi",
     "title": "学生党便宜流量卡怎么选？月租低不踩坑",
     "date": "2026-10-18",
