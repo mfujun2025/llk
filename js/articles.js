@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-wulianka-qubie",
+    "title": "物联卡和正规流量卡区别：买前先分清这几点",
+    "date": "2026-10-20",
+    "tag": "选卡技巧",
+    "summary": "物联卡和正规流量卡区别一篇讲清：使用场景、功能资费、虚量风险逐项对比，教你识别来路不明的卡，办卡不踩坑。",
+    "url": "articles/liuliangka-wulianka-qubie.html"
+  },
+  {
+    "id": "liuliangka-xuliangka-shibie",
+    "title": "流量卡虚量卡识别方法：三步看穿虚标套路",
+    "date": "2026-10-20",
+    "tag": "选卡技巧",
+    "summary": "流量卡虚量卡识别方法一篇讲清：官方App对账、单任务测试、看流量包明细三步识别虚标卡，买前避开虚量套路。",
+    "url": "articles/liuliangka-xuliangka-shibie.html"
+  },
+  {
+    "id": "liuliangka-banli-zhuyi",
+    "title": "流量卡办理注意事项大全：办卡前先过一遍这份清单",
+    "date": "2026-10-20",
+    "tag": "选卡技巧",
+    "summary": "流量卡办理注意事项大全：渠道选择、套餐条款、实名激活、售后保障逐项梳理，办卡前先过一遍这份清单更安心。",
+    "url": "articles/liuliangka-banli-zhuyi.html"
+  },
+  {
     "id": "liuliangka-yidi-xiaohu",
     "title": "流量卡异地销户流程：人在外地怎么把卡注销干净",
     "date": "2026-10-19",
