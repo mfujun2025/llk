@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-bufa-yanzhengma",
+    "title": "手机卡不给发验证码怎么办？流量卡排查看这四步",
+    "date": "2026-10-21",
+    "tag": "选卡技巧",
+    "summary": "手机卡不给发验证码怎么办？短信拦截、信号欠费、实名状态逐个排查，四步定位问题，正规流量卡用得更顺心。",
+    "url": "articles/liuliangka-bufa-yanzhengma.html"
+  },
+  {
+    "id": "liuliangka-daxuesheng-tuijian",
+    "title": "大学生流量卡推荐：学生党选卡看这四点",
+    "date": "2026-10-21",
+    "tag": "选卡技巧",
+    "summary": "大学生流量卡推荐：通用流量、月租长期价、合约规则、渠道正规四点讲清，学生党办卡不踩坑，用卡更省心。",
+    "url": "articles/liuliangka-daxuesheng-tuijian.html"
+  },
+  {
+    "id": "liuliangka-shangbanzu-shouxuan",
+    "title": "上班族流量卡首选：通勤办公怎么选才划算",
+    "date": "2026-10-21",
+    "tag": "选卡技巧",
+    "summary": "上班族流量卡首选：通用流量、稳定月租、通话时长、清爽合约四点讲清，通勤出差办公都够用，选卡不踩坑。",
+    "url": "articles/liuliangka-shangbanzu-shouxuan.html"
+  },
+  {
     "id": "liuliangka-wulianka-qubie",
     "title": "物联卡和正规流量卡区别：买前先分清这几点",
     "date": "2026-10-20",
