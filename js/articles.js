@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-chuchaidang-bibei",
+    "title": "出差党必备流量卡怎么选？全国通用之外还要看这几点",
+    "date": "2026-10-22",
+    "tag": "选卡技巧",
+    "summary": "出差党必备流量卡怎么选？全国通用、通用流量、通话时长、合约期四点讲清，跨省出差网络不拖后腿。",
+    "url": "articles/liuliangka-chuchaidang-bibei.html"
+  },
+  {
+    "id": "liuliangka-laonianren-tuijian",
+    "title": "老年人流量卡推荐：给长辈办卡注意这几点",
+    "date": "2026-10-22",
+    "tag": "选卡技巧",
+    "summary": "老年人流量卡推荐：月租稳定、流量够用、防骚扰、办理简单四点讲清，给长辈配卡少操心。",
+    "url": "articles/liuliangka-laonianren-tuijian.html"
+  },
+  {
+    "id": "liuliangka-kuaidiyuan-banli",
+    "title": "快递员流量卡办理指南：跑单送件流量通话怎么配",
+    "date": "2026-10-22",
+    "tag": "选卡技巧",
+    "summary": "快递员流量卡办理指南：通话分钟数、通用流量、资费稳定、渠道正规四点讲清，跑单送件不耽误事。",
+    "url": "articles/liuliangka-kuaidiyuan-banli.html"
+  },
+  {
     "id": "liuliangka-bufa-yanzhengma",
     "title": "手机卡不给发验证码怎么办？流量卡排查看这四步",
     "date": "2026-10-21",
