@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-tongyong-vs-dingxiang",
+    "title": "通用流量卡vs定向流量卡区别：选卡前先弄清这一点",
+    "date": "2026-10-23",
+    "tag": "选卡技巧",
+    "summary": "通用流量卡vs定向流量卡区别一文讲清：定义、热点、结转三大差异与按用途选卡建议，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-tongyong-vs-dingxiang.html"
+  },
+  {
+    "id": "liuliangka-chuntongyong-tuijian",
+    "title": "纯通用流量卡推荐：流量多还不挑软件怎么选",
+    "date": "2026-10-23",
+    "tag": "选卡技巧",
+    "summary": "纯通用流量卡推荐：真5G全国通用、月租稳定、渠道正规三点挑选，避开物联卡陷阱，本人实名激活。",
+    "url": "articles/liuliangka-chuntongyong-tuijian.html"
+  },
+  {
+    "id": "liuliangka-buxianruanjian-xiansu",
+    "title": "不限软件不限速流量卡：跑网速前先看懂这些",
+    "date": "2026-10-23",
+    "tag": "选卡技巧",
+    "summary": "不限软件不限速流量卡宣传怎么读懂：限速阈值、恢复规则、定向范围三看，正规渠道实名激活不踩坑。",
+    "url": "articles/liuliangka-buxianruanjian-xiansu.html"
+  },
+  {
     "id": "liuliangka-chuchaidang-bibei",
     "title": "出差党必备流量卡怎么选？全国通用之外还要看这几点",
     "date": "2026-10-22",
