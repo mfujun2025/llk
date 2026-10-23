@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-5g-yunyingshang",
+    "title": "5G流量卡哪个运营商好？按场景选比按名气选更靠谱",
+    "date": "2026-10-24",
+    "tag": "选卡技巧",
+    "summary": "5G流量卡哪个运营商好？移动覆盖广、联通网速快、电信重流量、广电性价比，按场景选卡，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-5g-yunyingshang.html"
+  },
+  {
+    "id": "liuliangka-mianjihuo-jinji",
+    "title": "免激活流量卡办理水有多深？激活规则和防骗要点一次讲清",
+    "date": "2026-10-24",
+    "tag": "选卡技巧",
+    "summary": "免激活流量卡办理要注意什么？正规流量卡都要本人实名激活，警惕钓鱼链接和刷单套路，激活规则与防骗要点一文讲清。",
+    "url": "articles/liuliangka-mianjihuo-jinji.html"
+  },
+  {
+    "id": "liuliangka-quanguo-tongyong",
+    "title": "全国通用流量卡推荐：出差旅游一张卡走全国",
+    "date": "2026-10-24",
+    "tag": "选卡技巧",
+    "summary": "全国通用流量卡推荐：真全国通用、流量可结转、合约清晰三点挑选，出差旅游按场景配卡，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-quanguo-tongyong.html"
+  },
+  {
     "id": "liuliangka-tongyong-vs-dingxiang",
     "title": "通用流量卡vs定向流量卡区别：选卡前先弄清这一点",
     "date": "2026-10-23",
