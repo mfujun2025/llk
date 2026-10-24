@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-dianxin-taocan-duibi",
+    "title": "电信流量卡套餐对比：按这四项比才不吃亏",
+    "date": "2026-10-25",
+    "tag": "选卡技巧",
+    "summary": "电信流量卡套餐对比怎么做？月租口径、流量构成、合约期、附加权益四维比价，资费以运营商官方页面为准，选卡不踩坑。",
+    "url": "articles/liuliangka-dianxin-taocan-duibi.html"
+  },
+  {
+    "id": "liuliangka-liantong-daliuliang-jiage",
+    "title": "联通大流量卡多少钱？价格构成一次说清",
+    "date": "2026-10-25",
+    "tag": "选卡技巧",
+    "summary": "联通大流量卡多少钱？月租、优惠期、副卡、超出资费都算清，不同档位适合不同人群，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-liantong-daliuliang-jiage.html"
+  },
+  {
+    "id": "liuliangka-yidong-chunliuliang-tuijian",
+    "title": "移动纯流量卡推荐：先分清这几点再选",
+    "date": "2026-10-25",
+    "tag": "选卡技巧",
+    "summary": "移动纯流量卡推荐前先分清正规套餐和物联卡：不能打电话、虚量、停机风险，选官方渠道，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-yidong-chunliuliang-tuijian.html"
+  },
+  {
     "id": "liuliangka-5g-yunyingshang",
     "title": "5G流量卡哪个运营商好？按场景选比按名气选更靠谱",
     "date": "2026-10-24",
