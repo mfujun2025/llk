@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-guangdian-zhideban-ma",
+    "title": "广电流量卡值得办吗？优缺点和适用人群一次讲清",
+    "date": "2026-10-26",
+    "tag": "选卡技巧",
+    "summary": "广电流量卡值得办吗？192号段正规卡、流量多月租低是优点，通话资费、手机适配是短板，按人群对号入座，资费以官方页面为准。",
+    "url": "articles/liuliangka-guangdian-zhideban-ma.html"
+  },
+  {
+    "id": "liuliangka-dianxin-19yuan-100g",
+    "title": "电信19元100G流量卡：宣传口径拆开看",
+    "date": "2026-10-26",
+    "tag": "选卡技巧",
+    "summary": "电信19元100G流量卡是真的吗？多为优惠期叠加口径，官方19元档不含百G，看通用流量占比和恢复价，资费以官方页面为准。",
+    "url": "articles/liuliangka-dianxin-19yuan-100g.html"
+  },
+  {
+    "id": "liuliangka-liantong-29yuan-daliuliang",
+    "title": "联通29元大流量卡：价格口径和办理要点拆解",
+    "date": "2026-10-26",
+    "tag": "选卡技巧",
+    "summary": "联通29元大流量卡：29元多为优惠期价、到期恢复原价，还有首充和合约要求，四要素算清再办，资费以官方页面为准。",
+    "url": "articles/liuliangka-liantong-29yuan-daliuliang.html"
+  },
+  {
     "id": "liuliangka-dianxin-taocan-duibi",
     "title": "电信流量卡套餐对比：按这四项比才不吃亏",
     "date": "2026-10-25",
