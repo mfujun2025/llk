@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-sanda-yunyingshang-nage-huasuan",
+    "title": "三大运营商流量卡哪个划算？三步横向比不踩坑",
+    "date": "2026-10-27",
+    "tag": "选卡技巧",
+    "summary": "三大运营商流量卡哪个划算？移动覆盖广、联通价格实惠、电信融合有特色，通用流量、长期月租、合约三项拉平再比，资费以官方页面为准。",
+    "url": "articles/liuliangka-sanda-yunyingshang-nage-huasuan.html"
+  },
+  {
+    "id": "liuliangka-dianxin-liantong-nage-hao",
+    "title": "电信和联通流量卡哪个好？按场景选才对",
+    "date": "2026-10-27",
+    "tag": "选卡技巧",
+    "summary": "电信和联通流量卡哪个好？电信覆盖稳、融合划算，联通价格实惠、网速快，按覆盖、网速、融合、预算四类场景对号入座，资费以官方页面为准。",
+    "url": "articles/liuliangka-dianxin-liantong-nage-hao.html"
+  },
+  {
+    "id": "liuliangka-100g-tongyong-tuijian",
+    "title": "100G通用流量卡推荐：先看通用占比和恢复价",
+    "date": "2026-10-27",
+    "tag": "选卡技巧",
+    "summary": "100G通用流量卡推荐前先确认通用占比：市面标100G多为优惠期叠加或掺定向，官方渠道档位价高，通用占比、恢复价、合约三项看清再办。",
+    "url": "articles/liuliangka-100g-tongyong-tuijian.html"
+  },
+  {
     "id": "liuliangka-guangdian-zhideban-ma",
     "title": "广电流量卡值得办吗？优缺点和适用人群一次讲清",
     "date": "2026-10-26",
