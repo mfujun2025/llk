@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-150g-tuijian-paihangbang",
+    "title": "150G纯流量卡排行榜：先按这三条筛",
+    "date": "2026-10-28",
+    "tag": "选卡技巧",
+    "summary": "150G纯流量卡排行榜先看筛选标准：通用占比、是否正规电话卡、优惠期恢复价三条达标才上榜，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-150g-tuijian-paihangbang.html"
+  },
+  {
+    "id": "liuliangka-19yuan-yuezu-tuijian",
+    "title": "月租19元流量卡推荐：先看懂19元档的真实构成",
+    "date": "2026-10-28",
+    "tag": "选卡技巧",
+    "summary": "月租19元流量卡推荐前先看懂构成：官方19元档以定向为主、通用日租计费，市面19元大流量多为优惠期叠加，资费以官方页面为准。",
+    "url": "articles/liuliangka-19yuan-yuezu-tuijian.html"
+  },
+  {
+    "id": "liuliangka-29yuan-zhideban-ma",
+    "title": "29元流量卡值得办吗？把这三笔账算清",
+    "date": "2026-10-28",
+    "tag": "选卡技巧",
+    "summary": "29元流量卡值得办吗？通用流量占比、优惠期恢复价、合约注销成本三笔账算清再决定，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-29yuan-zhideban-ma.html"
+  },
+  {
     "id": "liuliangka-sanda-yunyingshang-nage-huasuan",
     "title": "三大运营商流量卡哪个划算？三步横向比不踩坑",
     "date": "2026-10-27",
