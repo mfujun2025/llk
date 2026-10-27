@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-daliuliang-yuezu-duibi",
+    "title": "大流量卡月租对比：官方口径和渠道价差在哪",
+    "date": "2026-10-29",
+    "tag": "选卡技巧",
+    "summary": "大流量卡月租对比要看官方口径：官方档位普遍偏贵，渠道低价多为优惠期叠加，通用占比、恢复价、首充门槛都要算清，资费以官方页面为准。",
+    "url": "articles/liuliangka-daliuliang-yuezu-duibi.html"
+  },
+  {
+    "id": "liuliangka-chaozhi-zenme-xuan",
+    "title": "超值流量卡怎么选：先算通用占比和续约规则",
+    "date": "2026-10-29",
+    "tag": "选卡技巧",
+    "summary": "超值流量卡怎么选：超值不等于月租最低，通用占比、结转规则、合约期、续约价四项核清，再比每G通用流量成本，资费以官方页面为准。",
+    "url": "articles/liuliangka-chaozhi-zenme-xuan.html"
+  },
+  {
+    "id": "liuliangka-daxuesheng-zenme-xuan",
+    "title": "大学生流量卡怎么选：按这四项够用不踩坑",
+    "date": "2026-10-29",
+    "tag": "选卡技巧",
+    "summary": "大学生流量卡怎么选：分清校园日常卡与旅行卡，通用占比、月租周期、合约与注销、归属地四项核清，预算低流量大也能选到，资费以官方页面为准。",
+    "url": "articles/liuliangka-daxuesheng-zenme-xuan.html"
+  },
+  {
     "id": "liuliangka-150g-tuijian-paihangbang",
     "title": "150G纯流量卡排行榜：先按这三条筛",
     "date": "2026-10-28",
