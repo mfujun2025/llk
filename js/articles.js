@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shangbanzu-yong-shenme",
+    "title": "上班族用什么流量卡：通勤、办公和通话这样配",
+    "date": "2026-10-30",
+    "tag": "选卡技巧",
+    "summary": "上班族用什么流量卡，先算通勤娱乐、办公热点和通话三个需求，通用占比、语音、合约三要点核清再下单，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-shangbanzu-yong-shenme.html"
+  },
+  {
+    "id": "liuliangka-chuchaidang-najia-hao",
+    "title": "出差党流量卡哪家好：覆盖和异地规则先看清",
+    "date": "2026-10-30",
+    "tag": "选卡技巧",
+    "summary": "出差党流量卡哪家好，先看常跑线路的信号覆盖，再看异地使用、销户和激活规则，全国通用档位优先，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-chuchaidang-najia-hao.html"
+  },
+  {
+    "id": "liuliangka-laonianren-nage-huasuan",
+    "title": "老年人流量卡哪个划算：低月租和通用流量这么配",
+    "date": "2026-10-30",
+    "tag": "选卡技巧",
+    "summary": "老年人流量卡哪个划算，关键在低月租、通用流量够用、操作简单防扣费，电信孝心卡、移动欢孝卡等适老档可参考，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-laonianren-nage-huasuan.html"
+  },
+  {
     "id": "liuliangka-daliuliang-yuezu-duibi",
     "title": "大流量卡月租对比：官方口径和渠道价差在哪",
     "date": "2026-10-29",
