@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-kuaidiyuan-zenmebanli",
+    "title": "快递员流量卡怎么办理：大流量和通话这样配",
+    "date": "2026-10-31",
+    "tag": "选卡技巧",
+    "summary": "快递员流量卡怎么办理，先看通用流量和通话分钟够不够跑单，再走官方渠道本人实名激活，骑手卡可选，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-kuaidiyuan-zenmebanli.html"
+  },
+  {
+    "id": "liuliangka-lvyou-ban-jitian-heshi",
+    "title": "旅游流量卡办几天合适：按行程天数这么算",
+    "date": "2026-10-31",
+    "tag": "选卡技巧",
+    "summary": "旅游流量卡办几天合适，先按行程天数和每日用量算流量，再定全国通用档或短期流量包，异地用卡规则看清，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-lvyou-ban-jitian-heshi.html"
+  },
+  {
+    "id": "liuliangka-zufangdang-tuijian",
+    "title": "租房党流量卡推荐：没宽带也能追剧打游戏",
+    "date": "2026-10-31",
+    "tag": "选卡技巧",
+    "summary": "租房党流量卡推荐，没装宽带就靠手机流量撑追剧、游戏和居家办公，通用占比、月租、合约三条核完再选，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-zufangdang-tuijian.html"
+  },
+  {
     "id": "liuliangka-shangbanzu-yong-shenme",
     "title": "上班族用什么流量卡：通勤、办公和通话这样配",
     "date": "2026-10-30",
