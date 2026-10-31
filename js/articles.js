@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-yidi-gongzuo-zenme-xuan",
+    "title": "异地工作流量卡怎么选：换城市不换卡这样办",
+    "date": "2026-11-01",
+    "tag": "选卡技巧",
+    "summary": "异地工作流量卡怎么选，全国通用流量、线上激活销户、归属地规则三条先核清，换城市不换卡也能正常用，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-yidi-gongzuo-zenme-xuan.html"
+  },
+  {
+    "id": "liuliangka-xueshengdang-yuezu-duoshao",
+    "title": "学生党流量卡月租多少：低月租校园卡这样挑",
+    "date": "2026-11-01",
+    "tag": "选卡技巧",
+    "summary": "学生党流量卡月租多少，低月租校园卡按校园流量、全国流量、合约期三条挑，宿舍、假期、兼职场景分开配，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-xueshengdang-yuezu-duoshao.html"
+  },
+  {
+    "id": "liuliangka-buxiansu-taocan-tuijian",
+    "title": "流量卡不限速套餐推荐：高速流量这样配",
+    "date": "2026-11-01",
+    "tag": "选卡技巧",
+    "summary": "流量卡不限速套餐推荐，先懂达量限速规则再选高速流量大的档位，游戏追剧不卡顿，别信永久不限量宣传，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-buxiansu-taocan-tuijian.html"
+  },
+  {
     "id": "liuliangka-kuaidiyuan-zenmebanli",
     "title": "快递员流量卡怎么办理：大流量和通话这样配",
     "date": "2026-10-31",
