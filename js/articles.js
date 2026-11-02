@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shiming-renzheng-liucheng",
+    "title": "流量卡实名认证流程：办卡实名这几步一次说清",
+    "date": "2026-11-03",
+    "tag": "选卡技巧",
+    "summary": "办流量卡都要实名认证，线上流程分几步？本文讲清流量卡实名认证的材料要求、人脸识别操作和常见坑，帮你在官方渠道一次通过审核。",
+    "url": "articles/liuliangka-shiming-renzheng-liucheng.html"
+  },
+  {
+    "id": "liuliangka-xinhao-buhao-zenme-ban",
+    "title": "流量卡信号不好怎么办：从覆盖盲区到终端排查一次搞定",
+    "date": "2026-11-03",
+    "tag": "选卡技巧",
+    "summary": "流量卡信号不好先别急着换卡。本文从覆盖盲区、建筑物遮挡、SIM卡接触到手机设置，给出一步步排查方法，帮你判断是信号问题还是终端问题。",
+    "url": "articles/liuliangka-xinhao-buhao-zenme-ban.html"
+  },
+  {
+    "id": "liuliangka-wansu-man-zenme-huishi",
+    "title": "流量卡网速慢怎么回事：五个常见原因逐个排查",
+    "date": "2026-11-03",
+    "tag": "选卡技巧",
+    "summary": "流量卡网速慢不一定都是卡的问题。本文分析达量限速、基站拥塞、信号弱、手机设置等五个常见原因，教你先判断再解决，避免白花冤枉钱。",
+    "url": "articles/liuliangka-wansu-man-zenme-huishi.html"
+  },
+  {
     "id": "liuliangka-quanguo-tongyong-zenme-xuan",
     "title": "流量卡全国通用怎么选：四个细节比“全国通用”更重要",
     "date": "2026-11-02",
