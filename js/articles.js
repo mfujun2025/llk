@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-yidi-jihuo",
+    "title": "流量卡可以异地激活吗：收货地、激活地与实名要求说明",
+    "date": "2026-11-05",
+    "tag": "选卡技巧",
+    "summary": "流量卡可以异地激活吗？多数线上流量卡要求在收货省份激活，跨省激活可能失败。本文讲清激活地域规则、实名流程与失败处理，以运营商官方页面为准。",
+    "url": "articles/liuliangka-yidi-jihuo.html"
+  },
+  {
+    "id": "liuliangka-cha-shengyu-liuliang",
+    "title": "流量卡怎么查剩余流量：App、短信与客服三种方式对比",
+    "date": "2026-11-05",
+    "tag": "选卡技巧",
+    "summary": "流量卡怎么查剩余流量？官方App最准、短信指令最快、客服兜底。本文讲清通用与定向流量区别、三种查询方式与常见误区，以运营商官方页面为准。",
+    "url": "articles/liuliangka-cha-shengyu-liuliang.html"
+  },
+  {
+    "id": "liuliangka-diule-buban-liucheng",
+    "title": "流量卡丢了别慌：挂失、补卡材料与异地补办流程",
+    "date": "2026-11-05",
+    "tag": "选卡技巧",
+    "summary": "流量卡丢了怎么补办？先挂失冻结号码，再备本人身份证原件和服务密码补卡。本文梳理补卡材料、异地补办与费用时效，以运营商官方页面为准。",
+    "url": "articles/liuliangka-diule-buban-liucheng.html"
+  },
+  {
     "id": "liuliangka-bei-tingji-zenme-huifu",
     "title": "流量卡被停机怎么恢复：不同停机原因的处理步骤",
     "date": "2026-11-04",
