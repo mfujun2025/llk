@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-fuka-banli-guize",
+    "title": "流量卡副卡办理前必看：名额上限、共享范围与月功能费",
+    "date": "2026-11-06",
+    "tag": "选卡技巧",
+    "summary": "流量卡副卡怎么办理？先确认名额上限、共享范围和月功能费。本文梳理电信移动副卡规则、办理渠道与常见问题，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-fuka-banli-guize.html"
+  },
+  {
+    "id": "liuliangka-zengfei-huodong-kaopu",
+    "title": "流量卡赠费活动靠谱吗：返还方式、使用限制与辨别方法",
+    "date": "2026-11-06",
+    "tag": "选卡技巧",
+    "summary": "流量卡赠费活动靠谱吗？关键看返还节奏、抵扣范围和活动入口。本文拆解分月返还规则与常见陷阱，教你三步核对真假，以运营商官方页面为准。",
+    "url": "articles/liuliangka-zengfei-huodong-kaopu.html"
+  },
+  {
+    "id": "liuliangka-youhuiqi-jieshu",
+    "title": "流量卡优惠期结束后怎么办：涨价、续约与换套餐三种选择",
+    "date": "2026-11-06",
+    "tag": "选卡技巧",
+    "summary": "流量卡优惠期结束后月租为什么上涨？本文讲清返费到期、自动续约规则，给出续约、换套餐、销户三种选择与到期前三个动作，以运营商官方页面为准。",
+    "url": "articles/liuliangka-youhuiqi-jieshu.html"
+  },
+  {
     "id": "liuliangka-yidi-jihuo",
     "title": "流量卡可以异地激活吗：收货地、激活地与实名要求说明",
     "date": "2026-11-05",
