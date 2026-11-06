@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-huan-shouji-yingxiang",
+    "title": "流量卡换手机影响使用吗：卡槽、网络制式与实名绑定说明",
+    "date": "2026-11-07",
+    "tag": "选卡技巧",
+    "summary": "流量卡换手机影响使用吗？本文讲清卡槽尺寸、网络制式、APN与VoLTE设置、实名核验等关键环节，附换机后连不上网的排查顺序，以运营商官方页面为准。",
+    "url": "articles/liuliangka-huan-shouji-yingxiang.html"
+  },
+  {
+    "id": "liuliangka-taocanwai-liuliang-shoufei",
+    "title": "流量卡套餐外流量怎么收费：超套计费、封顶与止损办法",
+    "date": "2026-11-07",
+    "tag": "选卡技巧",
+    "summary": "流量卡套餐外流量怎么收费？本文讲清按单价、阶梯计费、达量限速与封顶关停四种规则，说明哪种用法最容易超套，并给出查余量和止损方法，以运营商官方页面为准。",
+    "url": "articles/liuliangka-taocanwai-liuliang-shoufei.html"
+  },
+  {
+    "id": "liuliangka-zhuxiao-huifu",
+    "title": "流量卡注销后还能恢复吗：销户重开、冷冻期与二次放号风险",
+    "date": "2026-11-07",
+    "tag": "选卡技巧",
+    "summary": "流量卡注销后还能恢复吗？关键看是否在冷冻期或销户重开窗口内。本文讲清重开时限、办理材料、超期二次放号风险与注销前解绑事项，以运营商官方页面为准。",
+    "url": "articles/liuliangka-zhuxiao-huifu.html"
+  },
+  {
     "id": "liuliangka-fuka-banli-guize",
     "title": "流量卡副卡办理前必看：名额上限、共享范围与月功能费",
     "date": "2026-11-06",
