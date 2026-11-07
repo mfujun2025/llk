@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shenhe-butongguo",
+    "title": "流量卡审核不通过怎么办：一证五号、地址与资料原因排查",
+    "date": "2026-11-08",
+    "tag": "选卡技巧",
+    "summary": "流量卡审核不通过怎么办？本文按一证五号、收货地址与激活地、身份证资料三类原因逐项排查，并给出查驳回原因和重新提交的处理办法，以运营商官方页面为准。",
+    "url": "articles/liuliangka-shenhe-butongguo.html"
+  },
+  {
+    "id": "liuliangka-ertong-shoubiao",
+    "title": "流量卡能装进儿童手表吗：卡型、实名与套餐适配说明",
+    "date": "2026-11-08",
+    "tag": "选卡技巧",
+    "summary": "流量卡能装进儿童手表吗？可以，但要看卡型和运营商支持。本文讲清Nano-SIM、业务开通、实名要求与套餐选择，并提醒避开物联网卡和副卡限制，以官方页面为准。",
+    "url": "articles/liuliangka-ertong-shoubiao.html"
+  },
+  {
+    "id": "liuliangka-gai-dizhi",
+    "title": "流量卡下单后能改地址吗：改址、拒收与退卡流程",
+    "date": "2026-11-08",
+    "tag": "选卡技巧",
+    "summary": "流量卡下单后能改地址吗？分未发货、已发货、已激活三种情况处理。本文讲清改址、拒收、取消订单与退款到账规则，并给出下单前的避坑清单，以官方页面为准。",
+    "url": "articles/liuliangka-gai-dizhi.html"
+  },
+  {
     "id": "liuliangka-huan-shouji-yingxiang",
     "title": "流量卡换手机影响使用吗：卡槽、网络制式与实名绑定说明",
     "date": "2026-11-07",
