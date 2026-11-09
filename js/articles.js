@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-bujihuo-houguo",
+    "title": "流量卡收到后不激活会怎样：激活期限、自动销户与退款说明",
+    "date": "2026-11-10",
+    "tag": "选卡技巧",
+    "summary": "流量卡收到后不激活会怎样？本文讲清常见激活期限、逾期自动销户、未激活插卡的风险与退款处理，并给出签收后该做的三件事，资费与规则以运营商官方页面为准。",
+    "url": "articles/liuliangka-bujihuo-houguo.html"
+  },
+  {
+    "id": "liuliangka-yizhengtongcha",
+    "title": "名下有几张电话卡怎么查：一证通查入口与一证五号规则",
+    "date": "2026-11-10",
+    "tag": "选卡技巧",
+    "summary": "名下有几张电话卡怎么查？本文说明一证通查入口、所需信息与48小时短信结果，讲清一证五号上限及超限时流量卡办理受阻的处理路径。",
+    "url": "articles/liuliangka-yizhengtongcha.html"
+  },
+  {
+    "id": "liuliangka-zhuxiao-yue-tuifei",
+    "title": "流量卡注销后余额能退吗：退费规则、到账时间与办理路径",
+    "date": "2026-11-10",
+    "tag": "选卡技巧",
+    "summary": "流量卡注销后余额能退吗？本文区分现金充值余额与赠送余额，说明销户退款、余额转账两种方式、到账时间和所需材料，并提示欠费结清顺序，以运营商官方页面为准。",
+    "url": "articles/liuliangka-zhuxiao-yue-tuifei.html"
+  },
+  {
     "id": "liuliangka-yuezu-koufei",
     "title": "流量卡月租什么时候扣：扣费日、余额不足与停机顺序",
     "date": "2026-11-09",
