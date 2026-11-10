@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-nianling-xianzhi",
+    "title": "流量卡有年龄限制吗：未满18岁、学生与老年人办卡规则",
+    "date": "2026-11-11",
+    "tag": "选卡技巧",
+    "summary": "流量卡有年龄限制吗？本文说明未满16岁由监护人代办、16至18岁需陪同核验的规则，讲清学生与老年人办卡所需证件、线上渠道限制和实名激活提醒。",
+    "url": "articles/liuliangka-nianling-xianzhi.html"
+  },
+  {
+    "id": "liuliangka-luyouqi-shiyong",
+    "title": "流量卡插路由器怎么用：能不能替代宽带、限速与设置要点",
+    "date": "2026-11-11",
+    "tag": "选卡技巧",
+    "summary": "流量卡插路由器能替代宽带吗？本文讲清通用流量与定向流量的设备限制、热点共享条款、限速与稳定性差异，并给出选卡和设置要点，规则以运营商官方页面为准。",
+    "url": "articles/liuliangka-luyouqi-shiyong.html"
+  },
+  {
+    "id": "liuliangka-yuyin-duanxin-zifei",
+    "title": "流量卡打电话发短信怎么收费：套餐外语音、短信与彩信资费",
+    "date": "2026-11-11",
+    "tag": "选卡技巧",
+    "summary": "流量卡打电话发短信怎么收费？本文说明套餐外语音、短信、彩信的计费口径与免费接听规则，讲清流量卡有无通话功能、查询和避免超套，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-yuyin-duanxin-zifei.html"
+  },
+  {
     "id": "liuliangka-bujihuo-houguo",
     "title": "流量卡收到后不激活会怎样：激活期限、自动销户与退款说明",
     "date": "2026-11-10",
