@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-volte-tonghua",
+    "title": "流量卡打不了电话怎么办：VoLTE高清通话开通与手机设置排查",
+    "date": "2026-11-12",
+    "tag": "选卡技巧",
+    "summary": "流量卡打不了电话怎么办？本文讲清VoLTE高清通话的作用、开通方式与安卓苹果设置路径，并给出信号、卡槽、欠费与2G退网的排查顺序，帮你快速恢复通话。",
+    "url": "articles/liuliangka-volte-tonghua.html"
+  },
+  {
+    "id": "liuliangka-apn-shezhi",
+    "title": "流量卡上不了网怎么设置：APN接入点、5G开关与数据切换",
+    "date": "2026-11-12",
+    "tag": "选卡技巧",
+    "summary": "流量卡上不了网怎么设置？本文按余额状态、APN接入点、双卡切换与5G开关的顺序排查，给出移动CMNET、电信CTNET的官方参数，帮你恢复上网。",
+    "url": "articles/liuliangka-apn-shezhi.html"
+  },
+  {
+    "id": "liuliangka-qinqinghao",
+    "title": "流量卡能加亲情号吗：全国亲情网资费、成员上限与办理条件",
+    "date": "2026-11-12",
+    "tag": "选卡技巧",
+    "summary": "流量卡能加亲情号吗？本文说明移动、电信全国亲情网的月费、成员上限和互打免费范围，讲清主号付费、跨省成员与办理条件，资费以运营商官方页面为准。",
+    "url": "articles/liuliangka-qinqinghao.html"
+  },
+  {
     "id": "liuliangka-nianling-xianzhi",
     "title": "流量卡有年龄限制吗：未满18岁、学生与老年人办卡规则",
     "date": "2026-11-11",
