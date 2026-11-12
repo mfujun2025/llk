@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-esim-kaitong",
+    "title": "流量卡能用eSIM吗：支持机型、开通条件与换机迁移",
+    "date": "2026-11-13",
+    "tag": "选卡技巧",
+    "summary": "流量卡能用eSIM吗？本文讲清eSIM手机业务与一号双终端的区别、支持机型、实名开通条件，以及实体卡转eSIM、换机迁移和跨省补换的注意事项。",
+    "url": "articles/liuliangka-esim-kaitong.html"
+  },
+  {
+    "id": "liuliangka-shipin-huiyuan",
+    "title": "流量卡送的视频会员怎么领：权益内容、领取路径与有效期",
+    "date": "2026-11-13",
+    "tag": "选卡技巧",
+    "summary": "流量卡送的视频会员怎么领？本文讲清套餐权益的常见形式、运营商App与短信领取入口、7天周卡和月卡的有效期，以及领取失败与自动续费的注意事项。",
+    "url": "articles/liuliangka-shipin-huiyuan.html"
+  },
+  {
+    "id": "liuliangka-zidong-xufei",
+    "title": "流量卡自动续费怎么关：代扣授权、关闭路径与退订提醒",
+    "date": "2026-11-13",
+    "tag": "选卡技巧",
+    "summary": "流量卡自动续费怎么关？本文讲清运营商续订、微信支付宝代扣、应用商店订阅三条扣费路径，逐条给出关闭方法，并说明提前提醒与申诉的规则依据。",
+    "url": "articles/liuliangka-zidong-xufei.html"
+  },
+  {
     "id": "liuliangka-volte-tonghua",
     "title": "流量卡打不了电话怎么办：VoLTE高清通话开通与手机设置排查",
     "date": "2026-11-12",
