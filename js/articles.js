@@ -1,6 +1,54 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-zhuce-douyin-xiaohongshu",
+    "title": "流量卡能注册抖音小红书吗：二次号、风控与申诉解绑",
+    "date": "2026-11-15",
+    "tag": "选卡技巧",
+    "summary": "流量卡能注册抖音、小红书吗？本文讲清二次放号提示账号已存在的原因、平台风控触发条件与官方申诉解绑路径，帮你用新号码顺利注册。",
+    "url": "articles/liuliangka-zhuce-douyin-xiaohongshu.html"
+  },
+  {
+    "id": "liuliangka-ka-chicun-jianka",
+    "title": "流量卡卡尺寸不对怎么办：Nano-SIM、剪卡风险与补卡",
+    "date": "2026-11-15",
+    "tag": "选卡技巧",
+    "summary": "流量卡卡尺寸不对怎么办？本文讲清标准卡、Micro-SIM与Nano-SIM的区别，剪卡可能伤芯片、影响信号，以及本人补卡换卡的稳妥路径。",
+    "url": "articles/liuliangka-ka-chicun-jianka.html"
+  },
+  {
+    "id": "liuliangka-laidian-xianshi",
+    "title": "流量卡来电显示怎么开：收费、关闭方式与漏接影响",
+    "date": "2026-11-15",
+    "tag": "选卡技巧",
+    "summary": "流量卡来电显示怎么开？本文讲清来电显示的作用、约6元每月的标准资费与套餐包含情况，开通关闭渠道以及关闭后可能漏接电话的影响。",
+    "url": "articles/liuliangka-laidian-xianshi.html"
+  },
+  {
+    "id": "liuliangka-gangao-tai-manzou",
+    "title": "流量卡去港澳台能用吗：漫游开通、资费与网络选择",
+    "date": "2026-11-14",
+    "tag": "选卡技巧",
+    "summary": "流量卡去港澳台能用吗？本文讲清漫游功能开通、港澳台流量包资费、当地网络选择与VoLTE设置，出发前按这几步检查，避免落地无网。",
+    "url": "articles/liuliangka-gangao-tai-manzou.html"
+  },
+  {
+    "id": "liuliangka-170-171-haoduan",
+    "title": "流量卡170和171号段是什么：虚拟运营商卡与正规卡区别",
+    "date": "2026-11-14",
+    "tag": "选卡技巧",
+    "summary": "流量卡170和171号段是什么？本文讲清移动通信转售号段的来历、与三大运营商正规卡的区别、实名与携号转网限制，以及办卡前的避坑要点。",
+    "url": "articles/liuliangka-170-171-haoduan.html"
+  },
+  {
+    "id": "liuliangka-guoji-duanxin",
+    "title": "流量卡能收国际短信吗：境外验证码、拦截与开通设置",
+    "date": "2026-11-14",
+    "tag": "选卡技巧",
+    "summary": "流量卡能收国际短信吗？本文讲清国际及港澳台短信接收开关、境外验证码收不到的原因、KTGJDX开通方法与拦截设置，帮你顺利接收境外服务短信。",
+    "url": "articles/liuliangka-guoji-duanxin.html"
+  },
+  {
     "id": "liuliangka-esim-kaitong",
     "title": "流量卡能用eSIM吗：支持机型、开通条件与换机迁移",
     "date": "2026-11-13",
