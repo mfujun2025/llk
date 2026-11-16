@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-haoma-bei-biaoji",
+    "title": "流量卡新号码被标记骚扰电话怎么办：查询、申诉与清除",
+    "date": "2026-11-17",
+    "tag": "选卡技巧",
+    "summary": "流量卡新号码被标记骚扰电话怎么办？讲清标记来源、信通院与手机厂商查询入口，以及申诉清除、防骚扰设置和换号判断，帮你恢复正常通话。",
+    "url": "articles/liuliangka-haoma-bei-biaoji.html"
+  },
+  {
+    "id": "liuliangka-dingxiang-bukou",
+    "title": "流量卡定向流量不抵扣怎么办：免流范围与设置排查",
+    "date": "2026-11-17",
+    "tag": "选卡技巧",
+    "summary": "流量卡定向流量不抵扣怎么办？从免流范围、WiFi与APN设置、VPN和热点限制逐项排查，再教你看账单、留证据并向运营商申诉。",
+    "url": "articles/liuliangka-dingxiang-bukou.html"
+  },
+  {
+    "id": "liuliangka-jihuo-tuikuan",
+    "title": "流量卡激活后能退吗：退款边界、违约金与拆机",
+    "date": "2026-11-17",
+    "tag": "选卡技巧",
+    "summary": "流量卡激活后能退吗？分清未激活与已激活的退款边界，讲清预存款、合约违约金、营业厅拆机和投诉路径，帮你把损失降到最低。",
+    "url": "articles/liuliangka-jihuo-tuikuan.html"
+  },
+  {
     "id": "liuliangka-liuliang-yongchao-zenmeban",
     "title": "流量卡流量用超了怎么办：超量计费、降速与补救",
     "date": "2026-11-16",
