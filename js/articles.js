@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-duanxin-fabuchu",
+    "title": "流量卡短信发不出去怎么办：短信中心、套餐与手机设置",
+    "date": "2026-11-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡短信发不出去怎么办？从欠费停机、短信功能、双卡设置、短信中心号码到手机拦截逐项排查，并说明何时该补卡或找客服。",
+    "url": "articles/liuliangka-duanxin-fabuchu.html"
+  },
+  {
+    "id": "liuliangka-liuliang-tongji-buyizhi",
+    "title": "流量卡流量统计对不上怎么回事：手机与运营商口径差异",
+    "date": "2026-11-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡流量统计对不上怎么回事？讲清手机与运营商的统计位置、上下行、计费取整和周期差异，并给出核对步骤与异常排查方法。",
+    "url": "articles/liuliangka-liuliang-tongji-buyizhi.html"
+  },
+  {
+    "id": "liuliangka-shouka-qianshou",
+    "title": "流量卡收卡要本人签收吗：代收风险、验货清单与激活期限",
+    "date": "2026-11-19",
+    "tag": "选卡技巧",
+    "summary": "流量卡收卡要本人签收吗？说明实名签收要求、代收风险、开箱验货清单，以及各运营商激活期限和未激活退货边界。",
+    "url": "articles/liuliangka-shouka-qianshou.html"
+  },
+  {
     "id": "liuliangka-xianshi-liuliang",
     "title": "流量卡闲时流量怎么用：时段、范围与扣减顺序",
     "date": "2026-11-18",
