@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-5g-pinduan",
+    "title": "流量卡5G频段不匹配怎么办：n41、n78、n28与SA设置",
+    "date": "2026-11-20",
+    "tag": "选卡技巧",
+    "summary": "流量卡显示5G却网速慢，可能是手机频段不匹配。本文讲清n41、n78、n28对应哪些运营商，以及SA开关和排查顺序。",
+    "url": "articles/liuliangka-5g-pinduan.html"
+  },
+  {
+    "id": "liuliangka-pin-puk-suo",
+    "title": "流量卡PIN码输错被锁怎么办：PUK码、解锁步骤与补卡边界",
+    "date": "2026-11-20",
+    "tag": "选卡技巧",
+    "summary": "流量卡PIN码连续输错三次会被锁，需要用PUK码解锁；PUK再错十次卡会报废。本文讲清PUK查询、解锁步骤和补卡边界。",
+    "url": "articles/liuliangka-pin-puk-suo.html"
+  },
+  {
+    "id": "liuliangka-cha-benji-haoma",
+    "title": "流量卡怎么查本机号码：手机设置、客服与ICCID的区别",
+    "date": "2026-11-20",
+    "tag": "选卡技巧",
+    "summary": "流量卡怎么查本机号码？本文对比手机设置、客服热线、短信指令三种方式，讲清ICCID与手机号的区别，并附实名与安全提醒。",
+    "url": "articles/liuliangka-cha-benji-haoma.html"
+  },
+  {
     "id": "liuliangka-duanxin-fabuchu",
     "title": "流量卡短信发不出去怎么办：短信中心、套餐与手机设置",
     "date": "2026-11-19",
