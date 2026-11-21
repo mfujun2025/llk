@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-shiming-butongguo",
+    "title": "流量卡实名认证不通过：身份证过期、临时证与家人代办边界",
+    "date": "2026-11-22",
+    "tag": "办卡答疑",
+    "summary": "流量卡实名认证不通过，多与身份证过期、人脸核验或代办有关。本文拆解本人办理边界、临时证可用场景与重新认证步骤，少走弯路。",
+    "url": "articles/liuliangka-shiming-butongguo.html"
+  },
+  {
+    "id": "liuliangka-shouji-diule-zenme-ban",
+    "title": "手机丢了流量卡怎么办：挂失、补卡与账号止损顺序",
+    "date": "2026-11-22",
+    "tag": "避坑指南",
+    "summary": "手机丢失后先处理流量卡：挂失停机、补卡、冻结微信支付宝与银行卡，再改密码。按顺序操作可减少验证码被盗用的风险。",
+    "url": "articles/liuliangka-shouji-diule-zenme-ban.html"
+  },
+  {
+    "id": "liuliangka-toupiao-liuliang",
+    "title": "流量卡偷跑流量怎么回事：后台刷新、双卡切换与限额设置",
+    "date": "2026-11-22",
+    "tag": "用卡技巧",
+    "summary": "流量卡流量偷跑，多半是后台刷新、自动下载、双卡智能切换或热点共享。本文给出逐项排查和限额设置方法，帮你守住套餐流量。",
+    "url": "articles/liuliangka-toupiao-liuliang.html"
+  },
+  {
     "id": "liuliangka-cha-yiding-yewu",
     "title": "流量卡怎么查已订业务：套餐名称、增值业务与扣费项目",
     "date": "2026-11-21",
