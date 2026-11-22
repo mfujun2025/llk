@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-tingji-yanzhengma",
+    "title": "流量卡停机后还能收验证码吗：欠费、保护性停机与复机顺序",
+    "date": "2026-11-23",
+    "tag": "用卡技巧",
+    "summary": "流量卡停机后短信和验证码通常一起中断。本文分清欠费、停机保号与保护性停机，给出补缴、二次实名和复机后的排查顺序。",
+    "url": "articles/liuliangka-tingji-yanzhengma.html"
+  },
+  {
+    "id": "liuliangka-zhuxiao-shiming",
+    "title": "流量卡注销后实名信息还在吗：号码释放、留存期限与解绑顺序",
+    "date": "2026-11-23",
+    "tag": "避坑指南",
+    "summary": "流量卡注销后实名信息不会立刻消失，号码还要经过冷冻期才可能重新投放。本文讲清本人销户、两年留存与注销前解绑顺序。",
+    "url": "articles/liuliangka-zhuxiao-shiming.html"
+  },
+  {
+    "id": "liuliangka-ronghe-kuandai",
+    "title": "流量卡能办宽带融合套餐吗：外地号码、低消与合约限制",
+    "date": "2026-11-23",
+    "tag": "办卡答疑",
+    "summary": "流量卡能否办宽带融合套餐，取决于号码归属地、宽带资源、低消和合约。本文拆解外地号码的三条办理路径与常见门槛。",
+    "url": "articles/liuliangka-ronghe-kuandai.html"
+  },
+  {
     "id": "liuliangka-shiming-butongguo",
     "title": "流量卡实名认证不通过：身份证过期、临时证与家人代办边界",
     "date": "2026-11-22",
