@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-fuwu-mima",
+    "title": "流量卡服务密码忘了怎么办：重置、查余量与销户补卡用途",
+    "date": "2026-11-24",
+    "tag": "用卡技巧",
+    "summary": "流量卡服务密码忘了怎么重置？本文讲清查余量、补卡、销户时的用途，三大运营商重置路径，以及停机、次数锁定等失败原因，办理以官方页面为准。",
+    "url": "articles/liuliangka-fuwu-mima.html"
+  },
+  {
+    "id": "liuliangka-shouchong-weidaozhang",
+    "title": "流量卡首充话费没到账怎么办：本金、赠费与返还顺序",
+    "date": "2026-11-24",
+    "tag": "办卡答疑",
+    "summary": "流量卡首充话费没到账怎么办？本文拆清本金与赠费到账顺序、专属入口和返还条件，并给出72小时后的查证与申诉步骤，规则以官方页面为准。",
+    "url": "articles/liuliangka-shouchong-weidaozhang.html"
+  },
+  {
+    "id": "liuliangka-buka-jiuka",
+    "title": "流量卡补卡后旧卡又找到了还能用吗：失效时点与处理",
+    "date": "2026-11-24",
+    "tag": "避坑指南",
+    "summary": "流量卡补卡后旧卡又找到了还能用吗？本文说明新卡启用后的失效时点、补办未完成的例外，以及剪卡、账号核查与异常留证的处理顺序。",
+    "url": "articles/liuliangka-buka-jiuka.html"
+  },
+  {
     "id": "liuliangka-tingji-yanzhengma",
     "title": "流量卡停机后还能收验证码吗：欠费、保护性停机与复机顺序",
     "date": "2026-11-23",
