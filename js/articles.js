@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-yousuo-shouji",
+    "title": "流量卡插进有锁手机能用吗：网络锁、卡贴与eSIM自查",
+    "date": "2026-11-25",
+    "tag": "选卡技巧",
+    "summary": "流量卡插进有锁或海外版手机可能无信号。本文讲清运营商锁自查、官方解锁、卡贴机和eSIM限制，帮你在办卡前确认设备兼容。",
+    "url": "articles/liuliangka-yousuo-shouji.html"
+  },
+  {
+    "id": "liuliangka-renlian-shibai",
+    "title": "流量卡激活人脸识别失败怎么办：光线、证件与本人核验",
+    "date": "2026-11-25",
+    "tag": "办卡答疑",
+    "summary": "流量卡激活时人脸识别总失败？本文按光线、证件、本人核验和网络四项排查，并说明何时该换渠道或去营业厅，避免反复失败。",
+    "url": "articles/liuliangka-renlian-shibai.html"
+  },
+  {
+    "id": "liuliangka-zengzhi-tuiding",
+    "title": "流量卡优惠期结束怎么办：增值业务退订、扣费核查与投诉",
+    "date": "2026-11-25",
+    "tag": "避坑指南",
+    "summary": "流量卡优惠期结束后被自动续订？本文讲清账单核查、0000查询、App与客服退订，以及非本人开通的留证投诉与退费边界。",
+    "url": "articles/liuliangka-zengzhi-tuiding.html"
+  },
+  {
     "id": "liuliangka-fuwu-mima",
     "title": "流量卡服务密码忘了怎么办：重置、查余量与销户补卡用途",
     "date": "2026-11-24",
