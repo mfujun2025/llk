@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-wusim-paicha",
+    "title": "流量卡插上显示无SIM卡：卡托、氧化与卡槽三步排查",
+    "date": "2026-11-26",
+    "tag": "用卡技巧",
+    "summary": "流量卡插上却提示无SIM卡？本文按卡托方向、触点氧化、跨机测试和账户状态四步排查，分清是卡坏了还是卡槽问题，并说明补卡与实名激活要点。",
+    "url": "articles/liuliangka-wusim-paicha.html"
+  },
+  {
+    "id": "liuliangka-kuaidi-qianshou",
+    "title": "流量卡快递显示签收却没收到：驿站、快递柜与补发责任",
+    "date": "2026-11-26",
+    "tag": "办卡答疑",
+    "summary": "流量卡物流显示已签收却没拿到？本文讲清快递柜、驿站代收规则，教你查签收人、留证、找商家补发或退款，并说明补卡后的实名激活。",
+    "url": "articles/liuliangka-kuaidi-qianshou.html"
+  },
+  {
+    "id": "liuliangka-manchong-fengxian",
+    "title": "流量卡话费慢充打折靠谱吗：到账延迟、封号与洗钱风险",
+    "date": "2026-11-26",
+    "tag": "避坑指南",
+    "summary": "流量卡话费慢充打8折、9折靠谱吗？本文拆解72小时到账的资金来源、号码被封与涉诈风险，并说明官方充值渠道和已涉诈号码的处理方式。",
+    "url": "articles/liuliangka-manchong-fengxian.html"
+  },
+  {
     "id": "liuliangka-yousuo-shouji",
     "title": "流量卡插进有锁手机能用吗：网络锁、卡贴与eSIM自查",
     "date": "2026-11-25",
