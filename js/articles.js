@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-xinhao-changjing",
+    "title": "流量卡在电梯、地铁、高铁上没信号：场景原因与救急办法",
+    "date": "2026-11-27",
+    "tag": "用卡技巧",
+    "summary": "电梯、地库、地铁、高铁频繁断网？拆解流量卡在弱覆盖场景掉线的物理原因，给出可操作的救急设置与反馈路径。",
+    "url": "articles/liuliangka-xinhao-changjing.html"
+  },
+  {
+    "id": "liuliangka-ercihao-qianjizhu",
+    "title": "流量卡收到前机主短信和催收电话：二次号查询与解绑顺序",
+    "date": "2026-11-27",
+    "tag": "办卡答疑",
+    "summary": "新办的流量卡总收到前机主短信、快递和催收电话？说明二次号成因，按查询、解绑、留证三步处理，避免账号与资金风险。",
+    "url": "articles/liuliangka-ercihao-qianjizhu.html"
+  },
+  {
+    "id": "liuliangka-zhibojian-jiuyuan",
+    "title": "流量卡直播间9元300G靠谱吗：首充、二维码与售后归属",
+    "date": "2026-11-27",
+    "tag": "避坑指南",
+    "summary": "直播间低价流量卡常见套路：低价引流、扫码激活、首充返利。拆解三步话术，教你核验资质、拒扫陌生码并保留售后凭证。",
+    "url": "articles/liuliangka-zhibojian-jiuyuan.html"
+  },
+  {
     "id": "liuliangka-wusim-paicha",
     "title": "流量卡插上显示无SIM卡：卡托、氧化与卡槽三步排查",
     "date": "2026-11-26",
