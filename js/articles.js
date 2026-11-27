@@ -1,6 +1,30 @@
 // 流量卡资讯列表数据（按日期倒序）。每日更新：把新文章 {id,title,date,tag,summary,url} 追加到数组头部即可。
 window.ARTICLES = [
   {
+    "id": "liuliangka-redian-lianbushang",
+    "title": "流量卡热点连上却上不了网：频段、连接数与限速排查",
+    "date": "2026-11-28",
+    "tag": "用卡技巧",
+    "summary": "流量卡热点能连上却打不开网页、越用越慢？从共享限制、频段干扰、连接数和限速规则逐项排查，给出可操作的处理顺序。",
+    "url": "articles/liuliangka-redian-lianbushang.html"
+  },
+  {
+    "id": "liuliangka-iccid-buyizhi",
+    "title": "流量卡ICCID和订单不一致：调包、录错与激活前核验",
+    "date": "2026-11-28",
+    "tag": "避坑指南",
+    "summary": "收到流量卡发现ICCID与订单不一致，先别激活。核对卡板、订单和激活页，分清录错、调包与重复发货，掌握拒收与退款边界。",
+    "url": "articles/liuliangka-iccid-buyizhi.html"
+  },
+  {
+    "id": "liuliangka-tiyanjin-zengkuan",
+    "title": "流量卡体验金和赠款怎么抵扣：顺序、期限与账单核对",
+    "date": "2026-11-28",
+    "tag": "办卡答疑",
+    "summary": "流量卡账单里的体验金、赠款、返还金抵扣顺序不同，过期规则也不一样。看懂扣费优先级与返费记录，避免首月就被扣到欠费。",
+    "url": "articles/liuliangka-tiyanjin-zengkuan.html"
+  },
+  {
     "id": "liuliangka-xinhao-changjing",
     "title": "流量卡在电梯、地铁、高铁上没信号：场景原因与救急办法",
     "date": "2026-11-27",
